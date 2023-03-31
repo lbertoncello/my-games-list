@@ -1,6 +1,6 @@
-# Vue Base Project
+# My Games List
 
-This is a boilerplate to start new [Vue] + [Vuetify] projects. It also comes with [Vite], [ESLint] and [Prettier] configured and installed. 
+This repository contains the front-end of a website where users will be able to keep track of the games they have played as well as to see some statistics about them. It is being built using [Vue] + [Vuetify].
 
 # Getting Started
 
