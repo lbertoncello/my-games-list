@@ -5,10 +5,11 @@
         <v-col cols="2"></v-col>
         <v-col cols="8">
           <v-text-field
-            label="Search for your game"
             variant="outlined"
             prepend-inner-icon="mdi-magnify"
             clearable
+            label="Search for your game"
+            placeholder="Which game do you want to search?"
           />
         </v-col>
         <v-col cols="2"></v-col>
