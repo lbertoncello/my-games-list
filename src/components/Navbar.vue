@@ -9,7 +9,7 @@
   display: block;
   height: 10vh;
   width: 100vw;
-  background-color: #00042C;
+  background-color: #090021;
 }
 
 @media screen and (min-width: 768px) {

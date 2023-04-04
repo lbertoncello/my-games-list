@@ -13,6 +13,6 @@
 <style scoped>
 .home-info-banner {
   height: 20vh;
-  background: #12002C;
+  background: #000821;
 }
 </style>
