@@ -7,8 +7,14 @@
 <style scoped>
 .navbar {
   display: block;
-  height: 5vh;
+  height: 10vh;
   width: 100vw;
-  background-color: #13689E;
+  background-color: #00042C;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    height: 5vh;
+  }
 }
 </style>
