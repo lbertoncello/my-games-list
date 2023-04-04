@@ -1,9 +1,12 @@
 <template>
   <article>
     <v-container class="search-section" fluid>
-      <v-row align="center" style="height: 100%;">
+      <v-row
+        no-gutters
+        align="center"
+        style="height: 100%;"
+      >
         <v-col>
-          <search-background class="search-background" />
           <div class="search-section-content">
             <search-title />
             <search-bar />
@@ -17,12 +20,17 @@
 <script setup>
 import SearchTitle from './SearchTitle.vue';
 import SearchBar from './SearchBar.vue';
-import SearchBackground from './SearchBackground.vue';
 </script>
 
 <style scoped>
 .search-section {
-  height: 75vh;
+  height: 80vh;
+  /* Add a background image that fills all the available space */
+  background: url("@/assets/images/home/dark-souls-002.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .search-section {
@@ -35,11 +43,30 @@ import SearchBackground from './SearchBackground.vue';
 }
 
 .search-background {
-  position: absolute;
-  left: 0;
-  top: 0;
+   /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
   width: 100%;
   height: auto;
-  opacity: 0.6;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .search-background {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .search-section {
+    height: 75vh;
+  }
 }
 </style>
