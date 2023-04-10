@@ -2,8 +2,19 @@
   <v-form>
     <v-container>
       <v-row>
-        <v-col cols="2"></v-col>
-        <v-col cols="8">
+        <v-col
+          cols="0"
+          sm="1"
+          lg="2"
+          xl="3"
+        >
+        </v-col>
+        <v-col
+          cols="12"
+          sm="10"
+          lg="8"
+          xl="6"
+        >
           <v-text-field
             variant="outlined"
             prepend-inner-icon="mdi-magnify"
@@ -12,7 +23,13 @@
             placeholder="Which game do you want to search?"
           />
         </v-col>
-        <v-col cols="2"></v-col>
+        <v-col
+          cols="0"
+          sm="1"
+          lg="2"
+          xl="3"
+        >
+      </v-col>
       </v-row>
     </v-container>
   </v-form>
