@@ -15,10 +15,11 @@
           lg="8"
           xl="6"
         >
-          <v-form @submit.prevent="">
+          <v-form @submit.prevent="" >
             <v-text-field
               v-model="searchQuery"
               @keypress.enter.prevent="handleSubmit"
+              :rules="[rules.required]"
               variant="outlined"
               prepend-inner-icon="mdi-magnify"
               clearable
@@ -42,16 +43,17 @@
 <script setup>
 import { ref } from 'vue';
 
-const emit = defineEmits({
-  // eslint-disable-next-line no-unused-vars
-  setup(payload) {
-    return true;
-  },
+const rules = ref({
+  required: (value) => !!value || 'Field is required',
 });
+
+const emit = defineEmits(['submit']);
 const searchQuery = ref('');
 
 async function handleSubmit() {
-  emit('submit', { searchQuery: searchQuery.value });
+  if (searchQuery.value && searchQuery.value.length > 0) {
+    emit('submit', { searchQuery: searchQuery.value });
+  }
 }
 
 </script>
