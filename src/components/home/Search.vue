@@ -9,7 +9,7 @@
         <v-col>
           <div class="search-section-content">
             <SearchTitle />
-            <SearchBar />
+            <SearchBar @submit="handleSubmit" />
           </div>
         </v-col>
       </v-row>
@@ -18,8 +18,16 @@
 </template>
 
 <script setup>
+import { useRouter } from 'vue-router';
 import SearchTitle from './SearchTitle.vue';
 import SearchBar from './SearchBar.vue';
+
+const router = useRouter();
+
+// eslint-disable-next-line no-unused-vars
+async function handleSubmit(params) {
+  router.push({ name: 'Search' });
+}
 </script>
 
 <style scoped>

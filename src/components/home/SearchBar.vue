@@ -15,13 +15,17 @@
           lg="8"
           xl="6"
         >
-          <v-text-field
-            variant="outlined"
-            prepend-inner-icon="mdi-magnify"
-            clearable
-            label="Search for your game"
-            placeholder="Which game do you want to search?"
-          />
+          <v-form @submit.prevent="">
+            <v-text-field
+              v-model="searchQuery"
+              @keypress.enter.prevent="handleSubmit"
+              variant="outlined"
+              prepend-inner-icon="mdi-magnify"
+              clearable
+              label="Search for your game"
+              placeholder="Which game do you want to search?"
+            />
+          </v-form>
         </v-col>
         <v-col
           cols="0"
@@ -34,3 +38,20 @@
     </v-container>
   </v-form>
 </template>
+
+<script setup>
+import { ref } from 'vue';
+
+const emit = defineEmits({
+  // eslint-disable-next-line no-unused-vars
+  setup(payload) {
+    return true;
+  },
+});
+const searchQuery = ref('');
+
+async function handleSubmit() {
+  emit('submit', { searchQuery: searchQuery.value });
+}
+
+</script>
