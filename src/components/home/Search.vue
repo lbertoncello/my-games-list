@@ -8,8 +8,8 @@
       >
         <v-col>
           <div class="search-section-content">
-            <search-title />
-            <search-bar />
+            <SearchTitle />
+            <SearchBar />
           </div>
         </v-col>
       </v-row>

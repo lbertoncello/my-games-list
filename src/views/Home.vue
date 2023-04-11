@@ -1,7 +1,7 @@
 <template>
-  <home-search />
-  <home-info-banner />
-  <hello-world />
+  <HomeSearch />
+  <HomeInfoBanner />
+  <HelloWorld />
 </template>
 
 <script setup>
