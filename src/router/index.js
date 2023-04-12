@@ -42,7 +42,7 @@ const routes = [
       {
         path: 'search',
         name: 'Search',
-        component: () => import(/* webpackChunkName: "signup" */ '@/views/SearchResult.vue'),
+        component: () => import(/* webpackChunkName: "signup" */ '@/views/GameSearch.vue'),
       },
     ],
   },
