@@ -34,6 +34,7 @@ async function handleSubmit(params) {
 .search-section {
   height: 80vh;
   position: relative;
+  background: #000000;
 }
 
 .search-section:before {

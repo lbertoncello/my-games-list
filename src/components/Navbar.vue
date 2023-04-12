@@ -84,7 +84,7 @@ const navbarItems = ref([...navbarFirstItems.value, ...navbarLastItems.value]);
 
 <style scoped>
 .navbar > * {
-  background-color: #090021;
+  background-color: #18122B;
 }
 
 .navbar-title > * {
