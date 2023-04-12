@@ -9,7 +9,10 @@
         style="height: 100%;"
       >
         <v-col class="d-flex justify-center">
-          <h1>Search Result</h1>
+          <GameSearchResultTitle
+            :numberOfResults="23"
+            serchString="Pokémon"
+          />
         </v-col>
       </v-row>
       <v-row no-gutters>
@@ -23,4 +26,5 @@
 
 <script setup>
 import GameCard from './GameCard.vue';
+import GameSearchResultTitle from './GameSearchResultTitle.vue';
 </script>
