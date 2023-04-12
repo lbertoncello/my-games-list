@@ -44,7 +44,7 @@
 import { ref } from 'vue';
 
 const rules = ref({
-  required: (value) => !!value || 'Field is required',
+  required: (value) => !!value || 'This field is required',
 });
 
 const emit = defineEmits(['submit']);
