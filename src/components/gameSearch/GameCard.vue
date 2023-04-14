@@ -1,17 +1,126 @@
 <template>
   <section class="game-card">
-
+    <figure class="game-cover-wrapper">
+      <img
+        src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1z8e.png"
+        class="game-cover"
+      />
+    </figure>
+    <div class="game-cover-content">
+      <div class="game-card-header">
+        <div class="game-card-header-info">
+          <h5 class="text-h5">Pokémon White Version 2</h5>
+          <div class="game-card-platforms">
+            <p>Platforms</p>
+            <p class="text-truncate">Switch, NDS, N3DS +</p>
+          </div>
+        </div>
+        <div class="game-card-rating">
+          <GameRating />
+        </div>
+      </div>
+      <div class="game-card-text">
+          Pokémon White Version 2 and Pokémon Black Version 2 are the second and final paired
+          versions of Generation V and are the sequels of Pokémon Black and White, respectively.
+          \nBoth games were revealed on Pokémon Smash! by Junichi Masuda, and subsequently the
+          official Japanese and international Pokémon websites, on February 26, 2012. They were
+          released in Japan on June 23, 2012, in North America on October 7, 2012, in Australia
+          on October 11, 2012, in Europe on October 12, 2012 and in South Korea on November 8,
+          2012.\nThe games feature two new forms of Kyurem that serve as the game mascots of the
+          games: Black Kyurem for Black 2 and White Kyurem for White 2.
+      </div>
+    </div>
   </section>
 </template>
 
 <script setup>
-
+import GameRating from './GameRating.vue';
 </script>
 
 <style scoped>
 .game-card {
-  background-color: white;
   width: 100%;
   height: 100%;
+  background-color: #635985;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #181818;
+  border: 1px solid #18122B;
+  overflow: hidden;
+  display: flex;
+}
+
+.game-cover-wrapper {
+  margin: 0.4rem;
+  max-width: 30%;
+}
+
+.game-cover {
+  max-height: 90%;
+  border-radius: 5px;
+}
+
+.game-cover-content {
+  width: 70%;
+  margin: 0.5rem
+}
+
+.game-card-platforms {
+  display: flex;
+}
+
+.game-card-platforms > :first-child {
+  margin-right: 0.5rem;
+}
+
+.game-card-platforms > * {
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+
+.game-card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-card-header > :nth-child(2){
+  align-self: center;
+}
+
+.game-card-text {
+  margin: 0.7rem auto 0.5rem;
+  max-height: 6rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* SM breakpoint */
+@media only screen and (min-width: 600px) {
+  .game-card-platforms > :first-child {
+    margin-right: 0.5rem;
+  }
+}
+
+/* MD breakpoint */
+@media only screen and (min-width: 960px) {
+  .game-card-platforms > :first-child {
+    margin-right: 0.7rem;
+  }
+}
+
+/* LG breakpoint */
+@media only screen and (min-width: 1280px) {
+  .game-card-platforms > :first-child {
+    margin-right: 1rem;
+  }
+}
+
+/* XL breakpoint */
+@media only screen and (min-width: 1920px) {
+  .game-card-header > :nth-child(2){
+    margin-left: 5rem;
+  }
 }
 </style>
