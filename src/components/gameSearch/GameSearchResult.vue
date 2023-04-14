@@ -73,7 +73,7 @@ import GameSearchResultTitle from './GameSearchResultTitle.vue';
 /* SM breakpoint */
 @media only screen and (min-width: 600px) {
   .game-search-result {
-    width: 70vw;
+    width: 80vw;
   }
 }
 

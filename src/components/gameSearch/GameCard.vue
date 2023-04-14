@@ -55,7 +55,7 @@ import GameRating from './GameRating.vue';
 }
 
 .game-cover {
-  max-height: 90%;
+  max-height: 80%;
   border-radius: 5px;
 }
 
@@ -69,11 +69,11 @@ import GameRating from './GameRating.vue';
 }
 
 .game-card-platforms > :first-child {
-  margin-right: 0.5rem;
+  margin-right: 0.3rem;
 }
 
 .game-card-platforms > * {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: lighter;
 }
 
@@ -101,26 +101,21 @@ import GameRating from './GameRating.vue';
   .game-card-platforms > :first-child {
     margin-right: 0.5rem;
   }
-}
 
-/* MD breakpoint */
-@media only screen and (min-width: 960px) {
-  .game-card-platforms > :first-child {
-    margin-right: 0.7rem;
+  .game-card-platforms > * {
+    font-size: 0.9rem;
   }
-}
 
-/* LG breakpoint */
-@media only screen and (min-width: 1280px) {
-  .game-card-platforms > :first-child {
-    margin-right: 1rem;
+  .game-cover {
+    max-height: 90%;
+    border-radius: 5px;
   }
 }
 
 /* XL breakpoint */
 @media only screen and (min-width: 1920px) {
-  .game-card-header > :nth-child(2){
-    margin-left: 5rem;
+  .game-card-platforms > :first-child {
+    margin-right: 1rem;
   }
 }
 </style>
