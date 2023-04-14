@@ -1,6 +1,6 @@
 <template>
   <div class="game-search-result-title">
-    <h1>{{ numberOfResults }} results for {{ serchString }}</h1>
+    <h1>{{ numberOfResults }} results for “{{ serchString }}”</h1>
   </div>
 </template>
 
