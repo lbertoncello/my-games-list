@@ -26,21 +26,6 @@ defineProps({
   width: 100%;
   background: #7960E6;
   border-radius: 5px;
-  margin: 1rem 1rem;
   padding: 1.3rem 0;
-}
-
-/* SM breakpoint */
-@media only screen and (min-width: 960px) {
-  .game-search-result-title {
-    width: 75%;
-  }
-}
-
-/* XL breakpoint */
-@media only screen and (min-width: 1920px) {
-  .game-search-result-title {
-    width: 50%;
-  }
 }
 </style>
