@@ -59,7 +59,7 @@ import GameSearchResultTitle from './GameSearchResultTitle.vue';
 .result-list li {
   margin: 0.5rem 0;
   min-width: 100%;
-  height: 10rem;
+  height: 13rem;
 }
 
 .game-search-result-title-wrapper {
@@ -88,7 +88,8 @@ import GameSearchResultTitle from './GameSearchResultTitle.vue';
   }
 
   .result-list li {
-    min-width: 49%;
+    max-width: 49%;
+    min-width: 0;
   }
 }
 
