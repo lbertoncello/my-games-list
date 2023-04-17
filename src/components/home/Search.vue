@@ -26,7 +26,8 @@ const router = useRouter();
 
 // eslint-disable-next-line no-unused-vars
 async function handleSubmit(params) {
-  router.push({ name: 'Search' });
+  const query = params.searchQuery;
+  router.push({ name: 'Search', query: { query } });
 }
 </script>
 

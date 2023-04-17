@@ -4,7 +4,7 @@
       <div class="game-search-result-title-wrapper">
         <GameSearchResultTitle
           :numberOfResults="games.length"
-          serchString="Pokémon"
+          :serchString="searchQuery"
         />
       </div>
       <ul class="result-list">
@@ -17,6 +17,8 @@
 </template>
 
 <script setup>
+import { ref } from 'vue';
+import { useRoute } from 'vue-router';
 import searchGames from '@/composables/searchGames';
 import getCovers from '@/composables/getCovers';
 import getAllPlatforms from '@/composables/getAllPlatforms';
@@ -24,6 +26,12 @@ import mergeObjectsById from '@/composables/helpers/mergeObjectsByField';
 import addPlatformDetailsToGames from '@/composables/addPlatformDetailsToGames';
 import GameCard from './GameCard.vue';
 import GameSearchResultTitle from './GameSearchResultTitle.vue';
+
+// Vue vars
+const route = useRoute();
+
+// Reactive vars
+const searchQuery = ref(route.query.query);
 
 const games = searchGames({});
 const covers = getCovers({});
