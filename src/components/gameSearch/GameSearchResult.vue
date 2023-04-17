@@ -3,28 +3,13 @@
     <div class="game-search-result">
       <div class="game-search-result-title-wrapper">
         <GameSearchResultTitle
-          :numberOfResults="23"
+          :numberOfResults="games.length"
           serchString="Pokémon"
         />
       </div>
       <ul class="result-list">
-        <li>
-          <GameCard />
-        </li>
-        <li>
-          <GameCard />
-        </li>
-        <li>
-          <GameCard />
-        </li>
-        <li>
-          <GameCard />
-        </li>
-        <li>
-          <GameCard />
-        </li>
-        <li>
-          <GameCard />
+        <li v-for="fullGame in fullGames" :key="fullGame.id">
+          <GameCard :fullGame="fullGame" />
         </li>
       </ul>
     </div>
@@ -32,8 +17,21 @@
 </template>
 
 <script setup>
+import searchGames from '@/composables/searchGames';
+import getCovers from '@/composables/getCovers';
+import mergeObjectsById from '@/composables/helpers/mergeObjectsByField';
 import GameCard from './GameCard.vue';
 import GameSearchResultTitle from './GameSearchResultTitle.vue';
+
+const games = searchGames({});
+const covers = getCovers({});
+// Get covers with bigger resolution
+const bigCovers = covers.map((cover) => ({ ...cover, url: cover.url.replace('/t_thumb/', '/t_cover_big/') }));
+// Get with all necessary fields filled
+const fullGames = mergeObjectsById(games, bigCovers, 'id', 'game', 'cover');
+
+console.log('games: ', games);
+console.log('full games: ', fullGames);
 </script>
 
 <style scoped>

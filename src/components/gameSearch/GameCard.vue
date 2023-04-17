@@ -1,40 +1,50 @@
 <template>
   <section class="game-card">
     <figure class="game-cover-wrapper">
+      <!-- TODO improve conditional rendering -->
       <img
-        src="https://images.igdb.com/igdb/image/upload/t_cover_big/co1z8e.png"
+        v-if="fullGame.cover.url"
+        :src="fullGame.cover.url"
+        class="game-cover"
+      />
+      <img
+        v-else
+        src="@/assets/images/image-fallback.jpg"
         class="game-cover"
       />
     </figure>
     <div class="game-cover-content">
       <div class="game-card-header">
         <div class="game-card-header-info">
-          <h5 class="text-h5">Pokémon White Version 2</h5>
+          <h5 class="text-h5">{{ fullGame.name }}</h5>
           <div class="game-card-platforms">
             <p>Platforms</p>
             <p class="text-truncate">Switch, NDS, N3DS +</p>
           </div>
         </div>
         <div class="game-card-rating">
-          <GameRating />
+          <GameRating :rating="fullGame.rating" />
         </div>
       </div>
-      <div class="game-card-text">
-          Pokémon White Version 2 and Pokémon Black Version 2 are the second and final paired
-          versions of Generation V and are the sequels of Pokémon Black and White, respectively.
-          \nBoth games were revealed on Pokémon Smash! by Junichi Masuda, and subsequently the
-          official Japanese and international Pokémon websites, on February 26, 2012. They were
-          released in Japan on June 23, 2012, in North America on October 7, 2012, in Australia
-          on October 11, 2012, in Europe on October 12, 2012 and in South Korea on November 8,
-          2012.\nThe games feature two new forms of Kyurem that serve as the game mascots of the
-          games: Black Kyurem for Black 2 and White Kyurem for White 2.
-      </div>
+      <div class="game-card-text">{{ fullGame.summary }}</div>
     </div>
   </section>
 </template>
 
 <script setup>
 import GameRating from './GameRating.vue';
+
+defineProps({
+  fullGame: {
+    type: Object,
+    required: true,
+  },
+  // TODO add cover fallback
+  cover: {
+    type: Object,
+    required: false,
+  },
+});
 </script>
 
 <style scoped>

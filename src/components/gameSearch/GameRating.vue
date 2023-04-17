@@ -1,10 +1,20 @@
 <template>
   <section class="game-rating">
     <div class="game-rating-circle">
-      <div class="game-rating-rate">80</div>
+      <!-- TODO change collor to yellow if rating < 70 and red if rating < 50 -->
+      <div class="game-rating-rate">{{ Math.round(rating) }}</div>
     </div>
   </section>
 </template>
+
+<script setup>
+defineProps({
+  rating: {
+    type: Number,
+    required: true,
+  },
+});
+</script>
 
 <style scoped>
 .game-rating-circle {
