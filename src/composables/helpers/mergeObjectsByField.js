@@ -4,13 +4,13 @@
  * 'objectToBeKeptIdField' and 'objectToBeMergedIdField' are the fields that should be compared.
  * If there is no match, false will be returned as the value in 'objectToBeReturnedMergeFieldName'.
  */
-export default function (
+export default (
   objectToBeKept,
   objectToBeMerged,
   objectToBeKeptIdField,
   objectToBeMergedIdField,
   objectToBeReturnedMergeFieldName,
-) {
+) => {
   // Turn the objectToBeMerged into a map
   const indexedObjectToBeMerged = new Map(objectToBeMerged.map(
     (entry) => [entry[objectToBeMergedIdField], entry],
@@ -29,4 +29,4 @@ export default function (
   });
 
   return objectToBeReturned;
-}
+};

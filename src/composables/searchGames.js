@@ -24,6 +24,9 @@ export default (params) => {
       name: 'Pokémon White Version 2',
       platforms: [
         20,
+        21,
+        22,
+        23,
       ],
       rating: 80.87590522061349,
       rating_count: 117,
@@ -68,6 +71,7 @@ export default (params) => {
       name: 'Pokémon Moon',
       platforms: [
         37,
+        22,
       ],
       rating: 77.94399014627419,
       rating_count: 182,
