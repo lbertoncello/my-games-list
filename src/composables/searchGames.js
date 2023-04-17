@@ -73,7 +73,7 @@ export default (params) => {
         37,
         22,
       ],
-      rating: 77.94399014627419,
+      rating: 67.94399014627419,
       rating_count: 182,
       screenshots: [
         30190,
@@ -120,7 +120,7 @@ export default (params) => {
       platforms: [
         24,
       ],
-      rating: 83.1213074955051,
+      rating: 23.1213074955051,
       rating_count: 391,
       screenshots: [
         20117,
