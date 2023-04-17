@@ -19,19 +19,20 @@
 <script setup>
 import searchGames from '@/composables/searchGames';
 import getCovers from '@/composables/getCovers';
+import getAllPlatforms from '@/composables/getAllPlatforms';
 import mergeObjectsById from '@/composables/helpers/mergeObjectsByField';
+import addPlatformDetailsToGames from '@/composables/addPlatformDetailsToGames';
 import GameCard from './GameCard.vue';
 import GameSearchResultTitle from './GameSearchResultTitle.vue';
 
 const games = searchGames({});
 const covers = getCovers({});
+const platforms = getAllPlatforms({});
 // Get covers with bigger resolution
 const bigCovers = covers.map((cover) => ({ ...cover, url: cover.url.replace('/t_thumb/', '/t_cover_big/') }));
 // Get with all necessary fields filled
-const fullGames = mergeObjectsById(games, bigCovers, 'id', 'game', 'cover');
-
-console.log('games: ', games);
-console.log('full games: ', fullGames);
+const gamesWithCovers = mergeObjectsById(games, bigCovers, 'id', 'game', 'cover');
+const fullGames = addPlatformDetailsToGames(gamesWithCovers, platforms);
 </script>
 
 <style scoped>

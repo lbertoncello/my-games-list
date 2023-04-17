@@ -19,7 +19,7 @@
           <h5 class="text-h5">{{ fullGame.name }}</h5>
           <div class="game-card-platforms">
             <p>Platforms</p>
-            <p class="text-truncate">Switch, NDS, N3DS +</p>
+            <p class="text-truncate">{{ normalizedPlatforms }}</p>
           </div>
         </div>
         <div class="game-card-rating">
@@ -32,18 +32,33 @@
 </template>
 
 <script setup>
+import { ref, onMounted } from 'vue';
 import GameRating from './GameRating.vue';
 
-defineProps({
+const props = defineProps({
   fullGame: {
     type: Object,
     required: true,
   },
-  // TODO add cover fallback
-  cover: {
-    type: Object,
-    required: false,
-  },
+});
+
+// Limit the number platforms shown to 3
+const normalizePlatforms = (platforms) => {
+  const chosenPlatforms = platforms.slice(0, 3);
+  let normalizedPlatformsArray = chosenPlatforms.map((platform) => platform.abbreviation).join(', ');
+
+  // Add a '+' if there are more than 3 platforms
+  if (platforms.length > 3) {
+    normalizedPlatformsArray += ' +';
+  }
+
+  return normalizedPlatformsArray;
+};
+
+const normalizedPlatforms = ref('');
+
+onMounted(() => {
+  normalizedPlatforms.value = normalizePlatforms(props.fullGame.platforms);
 });
 </script>
 
