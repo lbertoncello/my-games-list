@@ -7,6 +7,7 @@
         :src="fullGame.cover.url"
         class="game-cover"
       />
+      <!-- TODO improve responsiveness with larger images -->
       <img
         v-else
         src="@/assets/images/image-fallback.jpg"
