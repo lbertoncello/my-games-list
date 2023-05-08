@@ -1,5 +1,6 @@
 {
   "*.{vue,js,jsx,cjs,mjs}": [
-    "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix"
+    "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix",
+    "prettier --write"
   ]
 }
