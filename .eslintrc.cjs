@@ -38,8 +38,6 @@ module.exports = {
     }
   },
   rules: {
-    'vue/multi-word-component-names': ['error', {
-      'ignores': [ 'Home', 'Layout', 'View' ]
-    }]
+    'vue/multi-word-component-names': 'off'
   },
 };
