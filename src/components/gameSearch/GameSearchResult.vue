@@ -2,10 +2,7 @@
   <article class="result">
     <div class="game-search-result">
       <div class="game-search-result-title-wrapper">
-        <GameSearchResultTitle
-          :numberOfResults="games.length"
-          :serchString="searchQuery"
-        />
+        <GameSearchResultTitle :numberOfResults="games.length" :serchString="searchQuery" />
       </div>
       <ul class="result-list">
         <li v-for="fullGame in fullGames" :key="fullGame.id">
@@ -37,7 +34,10 @@ const games = searchGames({});
 const covers = getCovers({});
 const platforms = getAllPlatforms({});
 // Get covers with bigger resolution
-const bigCovers = covers.map((cover) => ({ ...cover, url: cover.url.replace('/t_thumb/', '/t_cover_big/') }));
+const bigCovers = covers.map((cover) => ({
+  ...cover,
+  url: cover.url.replace('/t_thumb/', '/t_cover_big/'),
+}));
 // Get with all necessary fields filled
 const gamesWithCovers = mergeObjectsById(games, bigCovers, 'id', 'game', 'cover');
 const fullGames = addPlatformDetailsToGames(gamesWithCovers, platforms);

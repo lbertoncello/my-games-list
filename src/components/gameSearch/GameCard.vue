@@ -2,17 +2,9 @@
   <section class="game-card">
     <figure class="game-cover-wrapper">
       <!-- TODO improve conditional rendering -->
-      <img
-        v-if="fullGame.cover.url"
-        :src="fullGame.cover.url"
-        class="game-cover"
-      />
+      <img v-if="fullGame.cover.url" :src="fullGame.cover.url" class="game-cover" />
       <!-- TODO improve responsiveness with larger images -->
-      <img
-        v-else
-        src="@/assets/images/image-fallback.jpg"
-        class="game-cover"
-      />
+      <img v-else src="@/assets/images/image-fallback.jpg" class="game-cover" />
     </figure>
     <div class="game-cover-content">
       <div class="game-card-header">
@@ -46,7 +38,9 @@ const props = defineProps({
 // Limit the number platforms shown to 3
 const normalizePlatforms = (platforms) => {
   const chosenPlatforms = platforms.slice(0, 3);
-  let normalizedPlatformsArray = chosenPlatforms.map((platform) => platform.abbreviation).join(', ');
+  let normalizedPlatformsArray = chosenPlatforms
+    .map((platform) => platform.abbreviation)
+    .join(', ');
 
   // Add a '+' if there are more than 3 platforms
   if (platforms.length > 3) {
@@ -70,7 +64,7 @@ onMounted(() => {
   background-color: #635985;
   border-radius: 5px;
   box-shadow: 1px 1px 1px #181818;
-  border: 1px solid #18122B;
+  border: 1px solid #18122b;
   overflow: hidden;
   display: flex;
 }
@@ -87,7 +81,7 @@ onMounted(() => {
 
 .game-cover-content {
   width: 70%;
-  margin: 0.5rem
+  margin: 0.5rem;
 }
 
 .game-card-platforms {
@@ -108,7 +102,7 @@ onMounted(() => {
   justify-content: space-between;
 }
 
-.game-card-header > :nth-child(2){
+.game-card-header > :nth-child(2) {
   align-self: center;
 }
 

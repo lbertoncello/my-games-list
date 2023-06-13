@@ -4,18 +4,15 @@ require('@rushstack/eslint-patch/modern-module-resolution');
 module.exports = {
   root: true,
   env: {
+    es2021: true,
     browser: true,
-    es6: true,
     node: true,
   },
   extends: [
     'plugin:vue/vue3-essential',
     'airbnb-base',
+    'prettier',
   ],
-  globals: {
-    Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly',
-  },
   parserOptions: {
     ecmaVersion: 2022,
     sourceType: 'module',
@@ -23,13 +20,14 @@ module.exports = {
   plugins: [
     'vue',
     'import',
+    'prettier',
   ],
   settings: {
     'import/resolver': {
       alias: {
         map: [ 
-          ['@', './src']
-        ]
+          ['@', './src'],
+        ],
       },
       node: {
         paths: ['src'],
@@ -38,6 +36,7 @@ module.exports = {
     }
   },
   rules: {
-    'vue/multi-word-component-names': 'off'
+    "prettier/prettier": ["error"],
+    'vue/multi-word-component-names': 'off',
   },
-};
+}

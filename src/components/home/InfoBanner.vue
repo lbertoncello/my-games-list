@@ -97,6 +97,5 @@
   .home-info-banner {
     height: 30vh;
   }
-
 }
 </style>
