@@ -1,14 +1,9 @@
 /*
  * Return a (shallow) copy of 'games' containing their platform details.
  */
-export default (
-  games,
-  platforms,
-) => {
+export default (games, platforms) => {
   // Turn the platforms into a map
-  const indexedPlatforms = new Map(platforms.map(
-    (platform) => [platform.id, platform],
-  ));
+  const indexedPlatforms = new Map(platforms.map((platform) => [platform.id, platform]));
   const gamesWithPlatforms = [];
 
   games.forEach((game) => {

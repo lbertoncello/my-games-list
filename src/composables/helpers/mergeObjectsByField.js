@@ -9,12 +9,12 @@ export default (
   objectToBeMerged,
   objectToBeKeptIdField,
   objectToBeMergedIdField,
-  objectToBeReturnedMergeFieldName,
+  objectToBeReturnedMergeFieldName
 ) => {
   // Turn the objectToBeMerged into a map
-  const indexedObjectToBeMerged = new Map(objectToBeMerged.map(
-    (entry) => [entry[objectToBeMergedIdField], entry],
-  ));
+  const indexedObjectToBeMerged = new Map(
+    objectToBeMerged.map((entry) => [entry[objectToBeMergedIdField], entry])
+  );
   const objectToBeReturned = [];
 
   objectToBeKept.forEach((entry) => {

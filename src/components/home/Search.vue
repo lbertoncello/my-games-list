@@ -1,11 +1,7 @@
 <template>
   <article>
     <v-container class="search-section" fluid>
-      <v-row
-        no-gutters
-        align="center"
-        style="height: 100%;"
-      >
+      <v-row no-gutters align="center" style="height: 100%">
         <v-col>
           <div class="search-section-content">
             <SearchTitle />
@@ -48,7 +44,7 @@ async function handleSubmit(params) {
   height: 100%;
   opacity: 0.65;
   /* Add a background image that fills all the available space */
-  background: url("@/assets/images/home/dark-souls-002.jpg") no-repeat center center fixed;
+  background: url('@/assets/images/home/dark-souls-002.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -61,5 +57,4 @@ async function handleSubmit(params) {
     height: 75vh;
   }
 }
-
 </style>

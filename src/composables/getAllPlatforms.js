@@ -9,12 +9,8 @@ const platforms = [
     slug: 'commodore-cdtv',
     updated_at: 1522972800,
     url: 'https://www.igdb.com/platforms/commodore-cdtv',
-    versions: [
-      223,
-    ],
-    websites: [
-      26,
-    ],
+    versions: [223],
+    websites: [26],
     checksum: '5d48648e-283c-e2df-df7d-6d3cbc7e0a58',
   },
   {
@@ -28,9 +24,7 @@ const platforms = [
     slug: 'sega-pico',
     updated_at: 1595808000,
     url: 'https://www.igdb.com/platforms/sega-pico',
-    versions: [
-      456,
-    ],
+    versions: [456],
     checksum: '6e867a5b-a071-fc7b-945b-a0622f64a4bc',
   },
   {
@@ -46,10 +40,7 @@ const platforms = [
     slug: 'ps2',
     updated_at: 1414972800,
     url: 'https://www.igdb.com/platforms/ps2',
-    versions: [
-      58,
-      114,
-    ],
+    versions: [58, 114],
     checksum: 'be3e025c-d4ed-b795-443c-a8cb55fbfe17',
   },
   {
@@ -62,9 +53,7 @@ const platforms = [
     slug: 'ios',
     updated_at: 1391644800,
     url: 'https://www.igdb.com/platforms/ios',
-    versions: [
-      43,
-    ],
+    versions: [43],
     checksum: 'fefe4a2b-7c90-0e89-e811-902ea1cf2b58',
   },
   {
@@ -77,9 +66,7 @@ const platforms = [
     slug: 'c-plus-4',
     updated_at: 1468454400,
     url: 'https://www.igdb.com/platforms/c-plus-4',
-    versions: [
-      108,
-    ],
+    versions: [108],
     checksum: 'ea138789-6bbe-bcca-dff5-7e20e762f65a',
   },
   {
@@ -90,9 +77,7 @@ const platforms = [
     slug: 'ay-3-8710',
     updated_at: 1505779200,
     url: 'https://www.igdb.com/platforms/ay-3-8710',
-    versions: [
-      207,
-    ],
+    versions: [207],
     checksum: '5438ffcf-1f05-47e9-e082-15bafd1dc92f',
   },
   {
@@ -106,17 +91,8 @@ const platforms = [
     slug: 'odyssey--1',
     updated_at: 1591228800,
     url: 'https://www.igdb.com/platforms/odyssey--1',
-    versions: [
-      101,
-      167,
-      168,
-      169,
-      170,
-      171,
-    ],
-    websites: [
-      211,
-    ],
+    versions: [101, 167, 168, 169, 170, 171],
+    websites: [211],
     checksum: '26859452-7553-fa16-0833-3a62209ac679',
   },
   {
@@ -129,12 +105,8 @@ const platforms = [
     slug: 'cpet',
     updated_at: 1591228800,
     url: 'https://www.igdb.com/platforms/cpet',
-    versions: [
-      103,
-    ],
-    websites: [
-      216,
-    ],
+    versions: [103],
+    websites: [216],
     checksum: '2fa2cd86-55c7-cfa7-9569-e8f0422c8d0b',
   },
   {
@@ -145,12 +117,8 @@ const platforms = [
     slug: 'sol-20',
     updated_at: 1591228800,
     url: 'https://www.igdb.com/platforms/sol-20',
-    versions: [
-      354,
-    ],
-    websites: [
-      219,
-    ],
+    versions: [354],
+    websites: [219],
     checksum: 'c608e02f-1a92-d010-b161-4a368220bdfe',
   },
   {
@@ -164,16 +132,8 @@ const platforms = [
     slug: 'win',
     updated_at: 1470009600,
     url: 'https://www.igdb.com/platforms/win',
-    versions: [
-      1,
-      13,
-      14,
-      15,
-      124,
-    ],
-    websites: [
-      2,
-    ],
+    versions: [1, 13, 14, 15, 124],
+    websites: [2],
     checksum: '5aae54d0-390e-a4ec-a9ee-4ad4cc346992',
   },
   {
@@ -186,9 +146,7 @@ const platforms = [
     slug: 'zod',
     updated_at: 1392076800,
     url: 'https://www.igdb.com/platforms/zod',
-    versions: [
-      69,
-    ],
+    versions: [69],
     checksum: '7916e6bf-353a-6f27-a8de-a429204d17d9',
   },
   {
@@ -202,9 +160,7 @@ const platforms = [
     slug: 'colecovision',
     updated_at: 1392076800,
     url: 'https://www.igdb.com/platforms/colecovision',
-    versions: [
-      35,
-    ],
+    versions: [35],
     checksum: '85231b96-19bb-f7cb-608b-736c5120b70f',
   },
   {
@@ -218,13 +174,8 @@ const platforms = [
     slug: 'ti-99',
     updated_at: 1591228800,
     url: 'https://www.igdb.com/platforms/ti-99',
-    versions: [
-      172,
-      427,
-    ],
-    websites: [
-      218,
-    ],
+    versions: [172, 427],
+    websites: [218],
     checksum: 'b941f047-24e3-0297-b162-ea548b94b6f9',
   },
   {
@@ -236,9 +187,7 @@ const platforms = [
     slug: 'acorn-electron',
     updated_at: 1479427200,
     url: 'https://www.igdb.com/platforms/acorn-electron',
-    versions: [
-      184,
-    ],
+    versions: [184],
     checksum: 'ec7fd022-fcf9-8bf8-a73b-09080d9d3515',
   },
   {
@@ -252,13 +201,8 @@ const platforms = [
     slug: 'gamate',
     updated_at: 1656435661,
     url: 'https://www.igdb.com/platforms/gamate',
-    versions: [
-      497,
-    ],
-    websites: [
-      290,
-      305,
-    ],
+    versions: [497],
+    websites: [290, 305],
     checksum: 'dda22f38-ceab-8298-81ed-b44169d37d2d',
   },
   {
@@ -270,9 +214,7 @@ const platforms = [
     slug: 'hyper-neo-geo-64',
     updated_at: 1492041600,
     url: 'https://www.igdb.com/platforms/hyper-neo-geo-64',
-    versions: [
-      186,
-    ],
+    versions: [186],
     checksum: 'fedca8ca-3a51-84db-1d6a-36a2536d3fe0',
   },
   {
@@ -284,12 +226,8 @@ const platforms = [
     slug: 'thomson-mo5',
     updated_at: 1510012800,
     url: 'https://www.igdb.com/platforms/thomson-mo5',
-    versions: [
-      221,
-    ],
-    websites: [
-      24,
-    ],
+    versions: [221],
+    websites: [24],
     checksum: '5f4cdd4c-4bc0-2a7d-9842-5d1c5350ab4f',
   },
   {
@@ -302,9 +240,7 @@ const platforms = [
     slug: 'odyssey-2-slash-videopac-g7000',
     updated_at: 1664890233,
     url: 'https://www.igdb.com/platforms/odyssey-2-slash-videopac-g7000',
-    versions: [
-      183,
-    ],
+    versions: [183],
     checksum: '2f5934ae-8aa4-e849-64c9-932a59d9c30d',
   },
   {
@@ -316,12 +252,8 @@ const platforms = [
     slug: 'steam-vr',
     updated_at: 1561939200,
     url: 'https://www.igdb.com/platforms/steam-vr',
-    versions: [
-      233,
-    ],
-    websites: [
-      30,
-    ],
+    versions: [233],
+    websites: [30],
     checksum: 'e2c8f5f7-2c50-5d2d-b9b9-1135281d38f4',
   },
   {
@@ -334,10 +266,7 @@ const platforms = [
     slug: 'pc-50x-family',
     updated_at: 1505520000,
     url: 'https://www.igdb.com/platforms/pc-50x-family',
-    versions: [
-      200,
-      205,
-    ],
+    versions: [200, 205],
     checksum: 'ea364197-612c-e075-99f9-b95970ed4c58',
   },
   {
@@ -348,9 +277,7 @@ const platforms = [
     slug: 'ay-3-8607',
     updated_at: 1505779200,
     url: 'https://www.igdb.com/platforms/ay-3-8607',
-    versions: [
-      211,
-    ],
+    versions: [211],
     checksum: 'b148a659-dc31-1245-8623-321ce9008d75',
   },
   {
@@ -361,9 +288,7 @@ const platforms = [
     slug: 'ay-3-8605',
     updated_at: 1505779200,
     url: 'https://www.igdb.com/platforms/ay-3-8605',
-    versions: [
-      209,
-    ],
+    versions: [209],
     checksum: '3c9b3a84-dc54-3c94-0ee0-5cb97809d2a5',
   },
   {
@@ -374,9 +299,7 @@ const platforms = [
     slug: 'ay-3-8606',
     updated_at: 1505779200,
     url: 'https://www.igdb.com/platforms/ay-3-8606',
-    versions: [
-      210,
-    ],
+    versions: [210],
     checksum: '49428df3-7b02-316e-2390-95a230795394',
   },
   {
@@ -388,9 +311,7 @@ const platforms = [
     slug: 'pc-98',
     updated_at: 1508976000,
     url: 'https://www.igdb.com/platforms/pc-98',
-    versions: [
-      214,
-    ],
+    versions: [214],
     checksum: 'da17ec85-249b-d4ca-f876-8376319ba319',
   },
   {
@@ -404,9 +325,7 @@ const platforms = [
     slug: 'acpc',
     updated_at: 1468454400,
     url: 'https://www.igdb.com/platforms/acpc',
-    versions: [
-      20,
-    ],
+    versions: [20],
     checksum: '98553ead-7abe-3404-745d-cf7c17010f01',
   },
   {
@@ -418,12 +337,8 @@ const platforms = [
     slug: 'playdate',
     updated_at: 1623169440,
     url: 'https://www.igdb.com/platforms/playdate',
-    versions: [
-      501,
-    ],
-    websites: [
-      278,
-    ],
+    versions: [501],
+    websites: [278],
     checksum: '37f62ded-b711-b460-8539-0b720d3fc66e',
   },
   {
@@ -439,9 +354,7 @@ const platforms = [
     slug: 'fds',
     updated_at: 1633117070,
     url: 'https://www.igdb.com/platforms/fds',
-    versions: [
-      38,
-    ],
+    versions: [38],
     checksum: '6518150e-93d8-5bae-b8f4-d68315f0ca7a',
   },
   {
@@ -455,9 +368,7 @@ const platforms = [
     slug: 'wonderswan-color',
     updated_at: 1633117158,
     url: 'https://www.igdb.com/platforms/wonderswan-color',
-    versions: [
-      161,
-    ],
+    versions: [161],
     checksum: '748af3e0-64cd-acfa-104b-eb1fe5c9ad42',
   },
   {
@@ -471,9 +382,7 @@ const platforms = [
     slug: 'neo-geo-cd',
     updated_at: 1633117182,
     url: 'https://www.igdb.com/platforms/neo-geo-cd',
-    versions: [
-      187,
-    ],
+    versions: [187],
     checksum: 'd2e84b49-6a66-6df9-cecf-e85abba7d90e',
   },
   {
@@ -489,9 +398,7 @@ const platforms = [
     slug: 'gamegear',
     updated_at: 1633117184,
     url: 'https://www.igdb.com/platforms/gamegear',
-    versions: [
-      62,
-    ],
+    versions: [62],
     checksum: '54cd82ec-c45b-f5d7-baae-97b94344e716',
   },
   {
@@ -505,9 +412,7 @@ const platforms = [
     slug: 'jaguar',
     updated_at: 1392076800,
     url: 'https://www.igdb.com/platforms/jaguar',
-    versions: [
-      28,
-    ],
+    versions: [28],
     checksum: '70557c0a-1cac-d093-d287-67d8e5a201b0',
   },
   {
@@ -522,9 +427,7 @@ const platforms = [
     slug: '3do',
     updated_at: 1633117171,
     url: 'https://www.igdb.com/platforms/3do',
-    versions: [
-      18,
-    ],
+    versions: [18],
     checksum: '87213d2d-1406-71e3-dc09-8f2352937191',
   },
   {
@@ -538,9 +441,7 @@ const platforms = [
     slug: 'microvision--1',
     updated_at: 1407542400,
     url: 'https://www.igdb.com/platforms/microvision--1',
-    versions: [
-      102,
-    ],
+    versions: [102],
     checksum: '0d3ccf60-cdd5-5609-4f6b-fc6522e86a18',
   },
   {
@@ -554,12 +455,8 @@ const platforms = [
     slug: 'supergrafx',
     updated_at: 1614375534,
     url: 'https://www.igdb.com/platforms/supergrafx',
-    versions: [
-      166,
-    ],
-    websites: [
-      274,
-    ],
+    versions: [166],
+    websites: [274],
     checksum: 'a040b543-0247-80a1-86de-454b8fb44b43',
   },
   {
@@ -572,9 +469,7 @@ const platforms = [
     slug: 'turbografx-16-slash-pc-engine-cd',
     updated_at: 1633117075,
     url: 'https://www.igdb.com/platforms/turbografx-16-slash-pc-engine-cd',
-    versions: [
-      215,
-    ],
+    versions: [215],
     checksum: '0ebd9409-3139-db67-2b02-317f9f3b6913',
   },
   {
@@ -590,12 +485,8 @@ const platforms = [
     slug: 'dc',
     updated_at: 1617960514,
     url: 'https://www.igdb.com/platforms/dc',
-    versions: [
-      16,
-    ],
-    websites: [
-      276,
-    ],
+    versions: [16],
+    websites: [276],
     checksum: 'b746d5a7-b046-c612-1f83-0bbf8cb96500',
   },
   {
@@ -608,10 +499,7 @@ const platforms = [
     slug: 'atari8bit',
     updated_at: 1468540800,
     url: 'https://www.igdb.com/platforms/atari8bit',
-    versions: [
-      27,
-      104,
-    ],
+    versions: [27, 104],
     checksum: '37adef88-b15f-3963-a417-687e5e0a6260',
   },
   {
@@ -625,9 +513,7 @@ const platforms = [
     slug: 'vectrex',
     updated_at: 1392076800,
     url: 'https://www.igdb.com/platforms/vectrex',
-    versions: [
-      70,
-    ],
+    versions: [70],
     checksum: '5140484a-7fd8-2a13-2542-a9207d7c9fd4',
   },
   {
@@ -639,9 +525,7 @@ const platforms = [
     slug: 'donner30',
     updated_at: 1468540800,
     url: 'https://www.igdb.com/platforms/donner30',
-    versions: [
-      93,
-    ],
+    versions: [93],
     checksum: 'c11154b6-9734-c8fa-a9d3-9b56ffb1e4d9',
   },
   {
@@ -653,9 +537,7 @@ const platforms = [
     slug: 'pdp-8--1',
     updated_at: 1424390400,
     url: 'https://www.igdb.com/platforms/pdp-8--1',
-    versions: [
-      119,
-    ],
+    versions: [119],
     checksum: 'eab6eb03-90f9-c8ea-fb65-a98533fb31b6',
   },
   {
@@ -666,9 +548,7 @@ const platforms = [
     slug: 'gt40',
     updated_at: 1424390400,
     url: 'https://www.igdb.com/platforms/gt40',
-    versions: [
-      120,
-    ],
+    versions: [120],
     checksum: '479fe519-86c9-0bd1-0c72-311b125e7886',
   },
   {
@@ -679,9 +559,7 @@ const platforms = [
     slug: 'microcomputer--1',
     updated_at: 1438732800,
     url: 'https://www.igdb.com/platforms/microcomputer--1',
-    versions: [
-      138,
-    ],
+    versions: [138],
     checksum: '49f7f77d-42a9-0cae-368f-6f9475275e1f',
   },
   {
@@ -694,9 +572,7 @@ const platforms = [
     slug: 'nimrod',
     updated_at: 1437868800,
     url: 'https://www.igdb.com/platforms/nimrod',
-    versions: [
-      127,
-    ],
+    versions: [127],
     checksum: '9210f8a2-3f26-bea5-592a-dc573e2e8731',
   },
   {
@@ -708,9 +584,7 @@ const platforms = [
     slug: 'apple-iigs',
     updated_at: 1441238400,
     url: 'https://www.igdb.com/platforms/apple-iigs',
-    versions: [
-      153,
-    ],
+    versions: [153],
     checksum: '0b68ee2c-4b62-f6a4-8e27-8c1b55047bbe',
   },
   {
@@ -724,10 +598,7 @@ const platforms = [
     slug: 'dos',
     updated_at: 1656450592,
     url: 'https://www.igdb.com/platforms/dos',
-    versions: [
-      56,
-      540,
-    ],
+    versions: [56, 540],
     checksum: '9aabba9b-eb06-5274-26e1-250114855890',
   },
   {
@@ -739,9 +610,7 @@ const platforms = [
     slug: 'swancrystal',
     updated_at: 1441411200,
     url: 'https://www.igdb.com/platforms/swancrystal',
-    versions: [
-      162,
-    ],
+    versions: [162],
     checksum: '9d836c39-3419-65f8-02ff-9fe73e6b6716',
   },
   {
@@ -754,10 +623,7 @@ const platforms = [
     slug: 'fairchild-channel-f',
     updated_at: 1506384000,
     url: 'https://www.igdb.com/platforms/fairchild-channel-f',
-    versions: [
-      165,
-      212,
-    ],
+    versions: [165, 212],
     checksum: 'cba12692-9a22-154e-879f-1e9ca57e8b4b',
   },
   {
@@ -769,12 +635,8 @@ const platforms = [
     slug: 'pc-8801',
     updated_at: 1591228800,
     url: 'https://www.igdb.com/platforms/pc-8801',
-    versions: [
-      163,
-    ],
-    websites: [
-      217,
-    ],
+    versions: [163],
+    websites: [217],
     checksum: '797fd579-99d7-5f97-3a07-07dcda8cf60e',
   },
   {
@@ -790,9 +652,7 @@ const platforms = [
     slug: 'virtualboy',
     updated_at: 1633117149,
     url: 'https://www.igdb.com/platforms/virtualboy',
-    versions: [
-      100,
-    ],
+    versions: [100],
     checksum: 'bf67e603-dad2-4b4f-60f4-42ba62849a26',
   },
   {
@@ -804,9 +664,7 @@ const platforms = [
     slug: 'trs-80',
     updated_at: 1449705600,
     url: 'https://www.igdb.com/platforms/trs-80',
-    versions: [
-      164,
-    ],
+    versions: [164],
     checksum: 'fb10fc8e-0aeb-b55f-43a1-01b02aab3981',
   },
   {
@@ -822,13 +680,8 @@ const platforms = [
     slug: 'switch',
     updated_at: 1550534400,
     url: 'https://www.igdb.com/platforms/switch',
-    versions: [
-      173,
-      282,
-    ],
-    websites: [
-      16,
-    ],
+    versions: [173, 282],
+    websites: [16],
     checksum: 'd28b6757-c24a-73c6-50e7-f8e6487c78af',
   },
   {
@@ -840,9 +693,7 @@ const platforms = [
     slug: 'amazon-fire-tv',
     updated_at: 1469664000,
     url: 'https://www.igdb.com/platforms/amazon-fire-tv',
-    versions: [
-      176,
-    ],
+    versions: [176],
     checksum: 'db7a1f28-dc0d-68b1-c31e-94f43b9643b1',
   },
   {
@@ -855,12 +706,8 @@ const platforms = [
     slug: 'vc-4000',
     updated_at: 1505174400,
     url: 'https://www.igdb.com/platforms/vc-4000',
-    versions: [
-      196,
-    ],
-    websites: [
-      18,
-    ],
+    versions: [196],
+    websites: [18],
     checksum: 'cf5360d1-3a2e-8ee0-08bc-826a27bfe060',
   },
   {
@@ -873,10 +720,7 @@ const platforms = [
     slug: '1292-advanced-programmable-video-system',
     updated_at: 1505174400,
     url: 'https://www.igdb.com/platforms/1292-advanced-programmable-video-system',
-    versions: [
-      197,
-      213,
-    ],
+    versions: [197, 213],
     checksum: '8433ae84-dbc7-122b-ec12-f1858bad1c5f',
   },
   {
@@ -888,12 +732,8 @@ const platforms = [
     slug: 'tatung-einstein',
     updated_at: 1510012800,
     url: 'https://www.igdb.com/platforms/tatung-einstein',
-    versions: [
-      220,
-    ],
-    websites: [
-      23,
-    ],
+    versions: [220],
+    websites: [23],
     checksum: 'e7061776-b061-c4e7-b04e-cac5d68c38d1',
   },
   {
@@ -907,10 +747,7 @@ const platforms = [
     slug: 'nintendo-dsi',
     updated_at: 1559260800,
     url: 'https://www.igdb.com/platforms/nintendo-dsi',
-    versions: [
-      228,
-      229,
-    ],
+    versions: [228, 229],
     checksum: '3e006565-8164-029f-abd3-6a9c97a22441',
   },
   {
@@ -924,9 +761,7 @@ const platforms = [
     slug: 'neo-geo-pocket',
     updated_at: 1633117169,
     url: 'https://www.igdb.com/platforms/neo-geo-pocket',
-    versions: [
-      157,
-    ],
+    versions: [157],
     checksum: 'c0ff62cb-db50-1c63-765f-b470e0393069',
   },
   {
@@ -938,12 +773,8 @@ const platforms = [
     slug: 'dragon-32-slash-64',
     updated_at: 1510012800,
     url: 'https://www.igdb.com/platforms/dragon-32-slash-64',
-    versions: [
-      218,
-    ],
-    websites: [
-      21,
-    ],
+    versions: [218],
+    websites: [21],
     checksum: 'd11981c1-fbb1-100c-d63f-92021aa7fb0f',
   },
   {
@@ -955,12 +786,8 @@ const platforms = [
     slug: 'amstrad-pcw',
     updated_at: 1510012800,
     url: 'https://www.igdb.com/platforms/amstrad-pcw',
-    versions: [
-      219,
-    ],
-    websites: [
-      22,
-    ],
+    versions: [219],
+    websites: [22],
     checksum: 'af7ef1c3-c78b-1349-e129-0eafe14ba16f',
   },
   {
@@ -975,9 +802,7 @@ const platforms = [
     slug: 'xbox',
     updated_at: 1392076800,
     url: 'https://www.igdb.com/platforms/xbox',
-    versions: [
-      77,
-    ],
+    versions: [77],
     checksum: '226780a3-83ed-dcf9-6757-77091acc172d',
   },
   {
@@ -989,9 +814,7 @@ const platforms = [
     slug: 'pdp11',
     updated_at: 1438041600,
     url: 'https://www.igdb.com/platforms/pdp11',
-    versions: [
-      134,
-    ],
+    versions: [134],
     checksum: 'ad20351c-ef97-5b68-3166-ebe599a36a0a',
   },
   {
@@ -1004,9 +827,7 @@ const platforms = [
     slug: 'msx2',
     updated_at: 1468540800,
     url: 'https://www.igdb.com/platforms/msx2',
-    versions: [
-      48,
-    ],
+    versions: [48],
     checksum: 'd6f6cc07-f15c-1fab-6372-734d874684c8',
   },
   {
@@ -1021,9 +842,7 @@ const platforms = [
     slug: 'atari7800',
     updated_at: 1392076800,
     url: 'https://www.igdb.com/platforms/atari7800',
-    versions: [
-      26,
-    ],
+    versions: [26],
     checksum: '75e3ee56-5254-ea30-b5be-131e33ff2004',
   },
   {
@@ -1039,9 +858,7 @@ const platforms = [
     slug: 'segacd',
     updated_at: 1391904000,
     url: 'https://www.igdb.com/platforms/segacd',
-    versions: [
-      80,
-    ],
+    versions: [80],
     checksum: '68c11f76-6ea3-f708-1c6e-f5a390d37c54',
   },
   {
@@ -1057,11 +874,7 @@ const platforms = [
     slug: 'gba',
     updated_at: 1471478400,
     url: 'https://www.igdb.com/platforms/gba',
-    versions: [
-      40,
-      193,
-      194,
-    ],
+    versions: [40, 193, 194],
     checksum: '2741e85f-e65d-4668-6cdb-36fca54e5dd4',
   },
   {
@@ -1076,9 +889,7 @@ const platforms = [
     slug: 'sega32',
     updated_at: 1555977600,
     url: 'https://www.igdb.com/platforms/sega32',
-    versions: [
-      61,
-    ],
+    versions: [61],
     checksum: 'd47b5ebe-fc4e-7719-a5d9-ad5eeebc6ede',
   },
   {
@@ -1090,13 +901,7 @@ const platforms = [
     slug: 'ay-3-8500',
     updated_at: 1510012800,
     url: 'https://www.igdb.com/platforms/ay-3-8500',
-    versions: [
-      198,
-      201,
-      202,
-      203,
-      204,
-    ],
+    versions: [198, 201, 202, 203, 204],
     checksum: 'c28c6efe-d331-48a3-6980-d106f530dd5c',
   },
   {
@@ -1107,9 +912,7 @@ const platforms = [
     slug: 'ay-3-8760',
     updated_at: 1505779200,
     url: 'https://www.igdb.com/platforms/ay-3-8760',
-    versions: [
-      206,
-    ],
+    versions: [206],
     checksum: '69436aa6-6d7d-bb63-d775-444b6893301b',
   },
   {
@@ -1120,9 +923,7 @@ const platforms = [
     slug: 'ay-3-8603',
     updated_at: 1505779200,
     url: 'https://www.igdb.com/platforms/ay-3-8603',
-    versions: [
-      208,
-    ],
+    versions: [208],
     checksum: '0124f86d-b875-8d9e-8c78-95c7fc47de08',
   },
   {
@@ -1138,13 +939,8 @@ const platforms = [
     slug: 'n64',
     updated_at: 1565136000,
     url: 'https://www.igdb.com/platforms/n64',
-    versions: [
-      51,
-      122,
-    ],
-    websites: [
-      35,
-    ],
+    versions: [51, 122],
+    websites: [35],
     checksum: '647c6004-3c75-3b8d-8259-79bd3d5e5a28',
   },
   {
@@ -1158,9 +954,7 @@ const platforms = [
     slug: 'neo-geo-pocket-color',
     updated_at: 1633117155,
     url: 'https://www.igdb.com/platforms/neo-geo-pocket-color',
-    versions: [
-      158,
-    ],
+    versions: [158],
     checksum: '34fcdc12-7b48-c959-7814-301a9f0dddeb',
   },
   {
@@ -1175,12 +969,8 @@ const platforms = [
     slug: 'wiiu',
     updated_at: 1489968000,
     url: 'https://www.igdb.com/platforms/wiiu',
-    versions: [
-      73,
-    ],
-    websites: [
-      10,
-    ],
+    versions: [73],
+    websites: [10],
     checksum: '13712d1c-3c5d-44d8-2d54-b2adc47f5416',
   },
   {
@@ -1193,9 +983,7 @@ const platforms = [
     slug: 'x1',
     updated_at: 1468454400,
     url: 'https://www.igdb.com/platforms/x1',
-    versions: [
-      66,
-    ],
+    versions: [66],
     checksum: 'c3265f1f-9c3e-fc18-b8e9-cf288b499e95',
   },
   {
@@ -1209,9 +997,7 @@ const platforms = [
     slug: 'browser',
     updated_at: 1553299200,
     url: 'https://www.igdb.com/platforms/browser',
-    versions: [
-      86,
-    ],
+    versions: [86],
     checksum: '42d5444b-505c-d210-5992-c06b7010651a',
   },
   {
@@ -1224,9 +1010,7 @@ const platforms = [
     slug: 'cdccyber70',
     updated_at: 1438041600,
     url: 'https://www.igdb.com/platforms/cdccyber70',
-    versions: [
-      135,
-    ],
+    versions: [135],
     checksum: '30a78a03-7d24-5580-2167-22682ab2208c',
   },
   {
@@ -1238,12 +1022,8 @@ const platforms = [
     slug: 'onlive-game-system',
     updated_at: 1439683200,
     url: 'https://www.igdb.com/platforms/onlive-game-system',
-    versions: [
-      140,
-    ],
-    websites: [
-      15,
-    ],
+    versions: [140],
+    websites: [15],
     checksum: '1fc33df6-3737-8f0c-416b-fa128bd6e8b3',
   },
   {
@@ -1255,12 +1035,8 @@ const platforms = [
     slug: 'acorn-archimedes',
     updated_at: 1591228800,
     url: 'https://www.igdb.com/platforms/acorn-archimedes',
-    versions: [
-      154,
-    ],
-    websites: [
-      214,
-    ],
+    versions: [154],
+    websites: [214],
     checksum: '1991c292-b1d6-8639-c74f-0b81cccc8845',
   },
   {
@@ -1273,9 +1049,7 @@ const platforms = [
     slug: 'amiga-cd32',
     updated_at: 1589587200,
     url: 'https://www.igdb.com/platforms/amiga-cd32',
-    versions: [
-      152,
-    ],
+    versions: [152],
     checksum: 'bd4ad4b9-f009-41cf-12e3-a10ce8ef69eb',
   },
   {
@@ -1287,9 +1061,7 @@ const platforms = [
     slug: 'philips-cd-i',
     updated_at: 1441238400,
     url: 'https://www.igdb.com/platforms/philips-cd-i',
-    versions: [
-      155,
-    ],
+    versions: [155],
     checksum: 'bca1c0c7-303a-5342-2e3c-2c121b40b24a',
   },
   {
@@ -1301,9 +1073,7 @@ const platforms = [
     slug: 'sharp-x68000',
     updated_at: 1441238400,
     url: 'https://www.igdb.com/platforms/sharp-x68000',
-    versions: [
-      159,
-    ],
+    versions: [159],
     checksum: '3a2f2fc9-7b6c-39f1-1a45-cca745eb8c09',
   },
   {
@@ -1315,12 +1085,8 @@ const platforms = [
     slug: 'nuon',
     updated_at: 1588809600,
     url: 'https://www.igdb.com/platforms/nuon',
-    versions: [
-      160,
-    ],
-    websites: [
-      172,
-    ],
+    versions: [160],
+    websites: [172],
     checksum: 'bd7c0b27-2608-a3e7-8e11-23f6deebc71d',
   },
   {
@@ -1336,10 +1102,7 @@ const platforms = [
     slug: 'nes',
     updated_at: 1660212114,
     url: 'https://www.igdb.com/platforms/nes',
-    versions: [
-      53,
-      175,
-    ],
+    versions: [53, 175],
     checksum: 'e5286baa-27cd-f24d-bf1a-f37abb776219',
   },
   {
@@ -1350,9 +1113,7 @@ const platforms = [
     slug: 'ay-3-8610',
     updated_at: 1510012800,
     url: 'https://www.igdb.com/platforms/ay-3-8610',
-    versions: [
-      199,
-    ],
+    versions: [199],
     checksum: 'd0a3d734-27aa-db05-4436-dc38739f7f9a',
   },
   {
@@ -1368,12 +1129,8 @@ const platforms = [
     slug: '3ds',
     updated_at: 1473984000,
     url: 'https://www.igdb.com/platforms/3ds',
-    versions: [
-      50,
-    ],
-    websites: [
-      9,
-    ],
+    versions: [50],
+    websites: [9],
     checksum: 'acee0d28-d3b8-b891-fc1c-768782c775a4',
   },
   {
@@ -1389,9 +1146,7 @@ const platforms = [
     slug: 'gbc',
     updated_at: 1628498928,
     url: 'https://www.igdb.com/platforms/gbc',
-    versions: [
-      41,
-    ],
+    versions: [41],
     checksum: 'ecd1db6f-8e22-bba6-a2d4-6b33cb5c2682',
   },
   {
@@ -1407,9 +1162,7 @@ const platforms = [
     slug: 'sms',
     updated_at: 1660234294,
     url: 'https://www.igdb.com/platforms/sms',
-    versions: [
-      63,
-    ],
+    versions: [63],
     checksum: 'e2d10a86-84db-ab93-f138-7c5567581918',
   },
   {
@@ -1421,15 +1174,7 @@ const platforms = [
     slug: 'amiga',
     updated_at: 1660327462,
     url: 'https://www.igdb.com/platforms/amiga',
-    versions: [
-      19,
-      109,
-      110,
-      111,
-      112,
-      113,
-      522,
-    ],
+    versions: [19, 109, 110, 111, 112, 113, 522],
     checksum: '1c4178c0-d6dc-1802-2554-080bbd8b4a1f',
   },
   {
@@ -1445,13 +1190,7 @@ const platforms = [
     slug: 'psp',
     updated_at: 1552780800,
     url: 'https://www.igdb.com/platforms/psp',
-    versions: [
-      59,
-      276,
-      277,
-      278,
-      279,
-    ],
+    versions: [59, 276, 277, 278, 279],
     checksum: 'f2350669-a77c-261f-d54e-d3bf715cd835',
   },
   {
@@ -1465,9 +1204,7 @@ const platforms = [
     slug: 'turbografx16--1',
     updated_at: 1441152000,
     url: 'https://www.igdb.com/platforms/turbografx16--1',
-    versions: [
-      99,
-    ],
+    versions: [99],
     checksum: 'a865ae03-6878-7704-642b-b2fa9e99389b',
   },
   {
@@ -1479,13 +1216,8 @@ const platforms = [
     slug: 'oculus-vr',
     updated_at: 1632966500,
     url: 'https://www.igdb.com/platforms/oculus-vr',
-    versions: [
-      232,
-    ],
-    websites: [
-      29,
-      287,
-    ],
+    versions: [232],
+    websites: [29, 287],
     checksum: '5ba43725-2a24-6320-d7d6-c52832aac350',
   },
   {
@@ -1498,12 +1230,8 @@ const platforms = [
     slug: 'playdia',
     updated_at: 1591142400,
     url: 'https://www.igdb.com/platforms/playdia',
-    versions: [
-      425,
-    ],
-    websites: [
-      208,
-    ],
+    versions: [425],
+    websites: [208],
     checksum: '3465b908-1432-e94c-dc31-72cb0099f969',
   },
   {
@@ -1519,14 +1247,8 @@ const platforms = [
     slug: 'ps3',
     updated_at: 1633117060,
     url: 'https://www.igdb.com/platforms/ps3',
-    versions: [
-      4,
-      5,
-      6,
-    ],
-    websites: [
-      3,
-    ],
+    versions: [4, 5, 6],
+    websites: [3],
     checksum: 'f6375299-72fe-d71c-6471-665a2de34930',
   },
   {
@@ -1540,23 +1262,8 @@ const platforms = [
     slug: 'mac',
     updated_at: 1394236800,
     url: 'https://www.igdb.com/platforms/mac',
-    versions: [
-      45,
-      141,
-      142,
-      143,
-      144,
-      145,
-      146,
-      147,
-      148,
-      149,
-      150,
-      151,
-    ],
-    websites: [
-      5,
-    ],
+    versions: [45, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151],
+    websites: [5],
     checksum: '19c9dcae-80a2-e137-50ff-11b823738827',
   },
   {
@@ -1570,13 +1277,8 @@ const platforms = [
     slug: 'satellaview',
     updated_at: 1635130695,
     url: 'https://www.igdb.com/platforms/satellaview',
-    versions: [
-      423,
-    ],
-    websites: [
-      205,
-      289,
-    ],
+    versions: [423],
+    websites: [205, 289],
     checksum: 'd8e1d9a0-b32f-1b76-d970-4f0681997f8e',
   },
   {
@@ -1592,12 +1294,8 @@ const platforms = [
     slug: 'saturn',
     updated_at: 1540771200,
     url: 'https://www.igdb.com/platforms/saturn',
-    versions: [
-      65,
-    ],
-    websites: [
-      6,
-    ],
+    versions: [65],
+    websites: [6],
     checksum: 'f4fddc54-c402-d538-ac88-e3d711bf3bb2',
   },
   {
@@ -1611,22 +1309,8 @@ const platforms = [
     slug: 'android',
     updated_at: 1556150400,
     url: 'https://www.igdb.com/platforms/android',
-    versions: [
-      7,
-      8,
-      9,
-      10,
-      11,
-      12,
-      236,
-      237,
-      238,
-      239,
-      320,
-    ],
-    websites: [
-      7,
-    ],
+    versions: [7, 8, 9, 10, 11, 12, 236, 237, 238, 239, 320],
+    websites: [7],
     checksum: 'fe27cf28-ec61-df1a-e378-ae233b2eea73',
   },
   {
@@ -1640,9 +1324,7 @@ const platforms = [
     slug: 'c64',
     updated_at: 1660212364,
     url: 'https://www.igdb.com/platforms/c64',
-    versions: [
-      36,
-    ],
+    versions: [36],
     checksum: '9a1db5f9-83b3-257e-9ae6-785a4e65d919',
   },
   {
@@ -1658,9 +1340,7 @@ const platforms = [
     summary: 'the mother text',
     updated_at: 1416700800,
     url: 'https://www.igdb.com/platforms/atari5200',
-    versions: [
-      25,
-    ],
+    versions: [25],
     checksum: 'b5e86dec-98fe-d680-de33-8fef3dae5435',
   },
   {
@@ -1674,9 +1354,7 @@ const platforms = [
     slug: 'intellivision',
     updated_at: 1392076800,
     url: 'https://www.igdb.com/platforms/intellivision',
-    versions: [
-      42,
-    ],
+    versions: [42],
     checksum: '84a4defd-0a29-ca54-0a07-67b61a4ddc98',
   },
   {
@@ -1689,9 +1367,7 @@ const platforms = [
     slug: 'blackberry',
     updated_at: 1392076800,
     url: 'https://www.igdb.com/platforms/blackberry',
-    versions: [
-      34,
-    ],
+    versions: [34],
     checksum: '6fdda0e4-4884-2e33-fd1a-de3521c9b804',
   },
   {
@@ -1706,12 +1382,8 @@ const platforms = [
     slug: 'game-and-watch',
     updated_at: 1633117066,
     url: 'https://www.igdb.com/platforms/game-and-watch',
-    versions: [
-      424,
-    ],
-    websites: [
-      206,
-    ],
+    versions: [424],
+    websites: [206],
     checksum: 'dcc3b1ce-4462-1c60-a1c2-566a266b1b04',
   },
   {
@@ -1722,9 +1394,7 @@ const platforms = [
     slug: 'imlac-pds1',
     updated_at: 1438473600,
     url: 'https://www.igdb.com/platforms/imlac-pds1',
-    versions: [
-      137,
-    ],
+    versions: [137],
     checksum: 'f6058e7f-0a66-beda-fe89-0c4f46a7864b',
   },
   {
@@ -1736,9 +1406,7 @@ const platforms = [
     slug: 'fm-towns',
     updated_at: 1441238400,
     url: 'https://www.igdb.com/platforms/fm-towns',
-    versions: [
-      156,
-    ],
+    versions: [156],
     checksum: 'd52c2758-3294-d5e8-960c-e3efffbd99d1',
   },
   {
@@ -1753,12 +1421,8 @@ const platforms = [
     slug: 'nintendo-playstation',
     updated_at: 1591142400,
     url: 'https://www.igdb.com/platforms/nintendo-playstation',
-    versions: [
-      174,
-    ],
-    websites: [
-      210,
-    ],
+    versions: [174],
+    websites: [210],
     checksum: 'f87b4f47-b252-5243-5b0c-604e45dbb9cf',
   },
   {
@@ -1770,12 +1434,8 @@ const platforms = [
     slug: 'nec-pc-6000-series',
     updated_at: 1510012800,
     url: 'https://www.igdb.com/platforms/nec-pc-6000-series',
-    versions: [
-      222,
-    ],
-    websites: [
-      25,
-    ],
+    versions: [222],
+    websites: [25],
     checksum: 'f781f28a-65e0-c00d-bf2d-3fdb80c54231',
   },
   {
@@ -1788,12 +1448,8 @@ const platforms = [
     slug: 'fm-7',
     updated_at: 1591228800,
     url: 'https://www.igdb.com/platforms/fm-7',
-    versions: [
-      217,
-    ],
-    websites: [
-      20,
-    ],
+    versions: [217],
+    websites: [20],
     checksum: '63b1a9d7-a511-8002-0575-4b57876ddb42',
   },
   {
@@ -1809,12 +1465,7 @@ const platforms = [
     slug: 'nds',
     updated_at: 1633117133,
     url: 'https://www.igdb.com/platforms/nds',
-    versions: [
-      52,
-      190,
-      191,
-      192,
-    ],
+    versions: [52, 190, 191, 192],
     checksum: '01ea20e3-3e12-2211-5f66-f4b631cbe59c',
   },
   {
@@ -1827,9 +1478,7 @@ const platforms = [
     slug: 'atari-st',
     updated_at: 1468454400,
     url: 'https://www.igdb.com/platforms/atari-st',
-    versions: [
-      30,
-    ],
+    versions: [30],
     checksum: '34e7481c-c27b-bef7-d2cf-f2e48ffcb5d7',
   },
   {
@@ -1845,14 +1494,8 @@ const platforms = [
     slug: 'psvita',
     updated_at: 1552780800,
     url: 'https://www.igdb.com/platforms/psvita',
-    versions: [
-      60,
-      274,
-      275,
-    ],
-    websites: [
-      34,
-    ],
+    versions: [60, 274, 275],
+    websites: [34],
     checksum: '7185535c-37aa-02e0-1764-b81181c990cb',
   },
   {
@@ -1866,17 +1509,12 @@ const platforms = [
     platform_logo: 231,
     platform_family: 1,
     slug: 'ps4--1',
-    summary: 'The PlayStation 4 system opens the door to an incredible journey through immersive new gaming worlds and a deeply connected gaming community. PS4 puts gamers first with an astounding launch line-up and over 180 games in development. Play amazing top-tier blockbusters and innovative indie hits on PS4. Developer inspired, gamer focused.',
+    summary:
+      'The PlayStation 4 system opens the door to an incredible journey through immersive new gaming worlds and a deeply connected gaming community. PS4 puts gamers first with an astounding launch line-up and over 180 games in development. Play amazing top-tier blockbusters and innovative indie hits on PS4. Developer inspired, gamer focused.',
     updated_at: 1433116800,
     url: 'https://www.igdb.com/platforms/ps4--1',
-    versions: [
-      17,
-      178,
-      179,
-    ],
-    websites: [
-      11,
-    ],
+    versions: [17, 178, 179],
+    websites: [11],
     checksum: '1dfa9b83-5f1d-56ce-01a1-06fcdfbb5bc0',
   },
   {
@@ -1890,10 +1528,7 @@ const platforms = [
     slug: 'lynx',
     updated_at: 1392076800,
     url: 'https://www.igdb.com/platforms/lynx',
-    versions: [
-      29,
-      189,
-    ],
+    versions: [29, 189],
     checksum: '28a85ec7-a1de-6e5b-9373-e0bbd3bafa13',
   },
   {
@@ -1907,12 +1542,8 @@ const platforms = [
     slug: 'c16',
     updated_at: 1633117068,
     url: 'https://www.igdb.com/platforms/c16',
-    versions: [
-      107,
-    ],
-    websites: [
-      213,
-    ],
+    versions: [107],
+    websites: [213],
     checksum: '8899c810-28ef-53c8-b563-0965c7efba3d',
   },
   {
@@ -1928,14 +1559,8 @@ const platforms = [
     slug: 'ngc',
     updated_at: 1644575483,
     url: 'https://www.igdb.com/platforms/ngc',
-    versions: [
-      54,
-      121,
-      125,
-    ],
-    websites: [
-      292,
-    ],
+    versions: [54, 121, 125],
+    websites: [292],
     checksum: '617b5b20-8ace-6046-14ed-7795ab4eb5f5',
   },
   {
@@ -1950,10 +1575,7 @@ const platforms = [
     slug: 'ngage',
     updated_at: 1660139366,
     url: 'https://www.igdb.com/platforms/ngage',
-    versions: [
-      49,
-      118,
-    ],
+    versions: [49, 118],
     checksum: 'db057318-c5ee-5996-d1b7-61d3be110d2e',
   },
   {
@@ -1969,17 +1591,8 @@ const platforms = [
     slug: 'snes',
     updated_at: 1660212083,
     url: 'https://www.igdb.com/platforms/snes',
-    versions: [
-      68,
-      95,
-      97,
-      139,
-      177,
-      391,
-    ],
-    websites: [
-      209,
-    ],
+    versions: [68, 95, 97, 139, 177, 391],
+    websites: [209],
     checksum: '8b2b4298-17ca-05a6-8420-26d6fca32a8a',
   },
   {
@@ -1990,9 +1603,7 @@ const platforms = [
     slug: 'sharp-mz-2200',
     updated_at: 1607330038,
     url: 'https://www.igdb.com/platforms/sharp-mz-2200',
-    versions: [
-      492,
-    ],
+    versions: [492],
     checksum: '318d54ca-5fd2-f9a2-51ac-b410927450b3',
   },
   {
@@ -2008,10 +1619,7 @@ const platforms = [
     slug: 'sfam',
     updated_at: 1399766400,
     url: 'https://www.igdb.com/platforms/sfam',
-    versions: [
-      67,
-      98,
-    ],
+    versions: [67, 98],
     checksum: '98c18388-67d3-e46a-77bc-49287d3da1e9',
   },
   {
@@ -2023,12 +1631,8 @@ const platforms = [
     slug: 'epoch-cassette-vision',
     updated_at: 1612947354,
     url: 'https://www.igdb.com/platforms/epoch-cassette-vision',
-    versions: [
-      493,
-    ],
-    websites: [
-      272,
-    ],
+    versions: [493],
+    websites: [272],
     checksum: 'bca00aff-ce4d-f044-7685-d4e9df6a902e',
   },
   {
@@ -2040,12 +1644,8 @@ const platforms = [
     slug: 'gear-vr',
     updated_at: 1632408543,
     url: 'https://www.igdb.com/platforms/gear-vr',
-    versions: [
-      509,
-    ],
-    websites: [
-      286,
-    ],
+    versions: [509],
+    websites: [286],
     checksum: '0ba81277-4a13-dedc-1153-f9bda42a4334',
   },
   {
@@ -2057,9 +1657,7 @@ const platforms = [
     slug: 'pdp10',
     updated_at: 1418515200,
     url: 'https://www.igdb.com/platforms/pdp10',
-    versions: [
-      116,
-    ],
+    versions: [116],
     checksum: 'aadf131a-55fe-8481-d377-8c6eefe18415',
   },
   {
@@ -2070,9 +1668,7 @@ const platforms = [
     slug: 'arcade',
     updated_at: 1391817600,
     url: 'https://www.igdb.com/platforms/arcade',
-    versions: [
-      22,
-    ],
+    versions: [22],
     checksum: '60b83ee0-5185-3f09-c6ea-f773857bd11b',
   },
   {
@@ -2087,12 +1683,8 @@ const platforms = [
     slug: 'new-nintendo-3ds',
     updated_at: 1591574400,
     url: 'https://www.igdb.com/platforms/new-nintendo-3ds',
-    versions: [
-      195,
-    ],
-    websites: [
-      17,
-    ],
+    versions: [195],
+    websites: [17],
     checksum: 'df7e06e4-3fce-4055-b28c-30703fba98bb',
   },
   {
@@ -2104,12 +1696,8 @@ const platforms = [
     slug: 'plug-and-play',
     updated_at: 1620957426,
     url: 'https://www.igdb.com/platforms/plug-and-play',
-    versions: [
-      496,
-    ],
-    websites: [
-      277,
-    ],
+    versions: [496],
+    websites: [277],
     checksum: 'd096ad26-9218-7b1f-89e0-d66f85491eb1',
   },
   {
@@ -2124,11 +1712,7 @@ const platforms = [
     slug: 'wonderswan',
     updated_at: 1633117139,
     url: 'https://www.igdb.com/platforms/wonderswan',
-    versions: [
-      76,
-      84,
-      117,
-    ],
+    versions: [76, 84, 117],
     checksum: 'f4e5369d-6ddc-59db-c2c8-df1dc4ad2cec',
   },
   {
@@ -2141,9 +1725,7 @@ const platforms = [
     slug: 'vic-20',
     updated_at: 1429142400,
     url: 'https://www.igdb.com/platforms/vic-20',
-    versions: [
-      37,
-    ],
+    versions: [37],
     checksum: '3e43a9f4-b55b-69e8-7222-64487c29bd47',
   },
   {
@@ -2155,12 +1737,11 @@ const platforms = [
     name: 'Apple II',
     platform_logo: 315,
     slug: 'appleii',
-    summary: 'The Apple II is an 8-bit home computer, one of the first highly successful mass-produced microcomputer products, designed primarily by Steve Wozniak, manufactured by Apple Computer (now Apple Inc.) and introduced in 1977. It is the first model in a series of computers which were produced until Apple IIe production ceased in November 1993.',
+    summary:
+      'The Apple II is an 8-bit home computer, one of the first highly successful mass-produced microcomputer products, designed primarily by Steve Wozniak, manufactured by Apple Computer (now Apple Inc.) and introduced in 1977. It is the first model in a series of computers which were produced until Apple IIe production ceased in November 1993.',
     updated_at: 1468454400,
     url: 'https://www.igdb.com/platforms/appleii',
-    versions: [
-      21,
-    ],
+    versions: [21],
     checksum: 'c54c78dd-0a6b-0c3e-9948-931ac9dd0845',
   },
   {
@@ -2174,12 +1755,7 @@ const platforms = [
     slug: 'winphone',
     updated_at: 1572739200,
     url: 'https://www.igdb.com/platforms/winphone',
-    versions: [
-      224,
-      225,
-      226,
-      227,
-    ],
+    versions: [224, 225, 226, 227],
     checksum: '007cbe18-41ed-e3d5-8292-4e9ad3b684ef',
   },
   {
@@ -2194,9 +1770,7 @@ const platforms = [
     slug: 'neogeoaes',
     updated_at: 1399680000,
     url: 'https://www.igdb.com/platforms/neogeoaes',
-    versions: [
-      82,
-    ],
+    versions: [82],
     checksum: '496c2bad-bcc8-ebda-a3c9-2756cffd7f1d',
   },
   {
@@ -2212,10 +1786,7 @@ const platforms = [
     slug: 'sg1000',
     updated_at: 1397865600,
     url: 'https://www.igdb.com/platforms/sg1000',
-    versions: [
-      91,
-      92,
-    ],
+    versions: [91, 92],
     checksum: '74499c7d-f3b4-21f3-3d3e-5a3c836bb45d',
   },
   {
@@ -2226,12 +1797,8 @@ const platforms = [
     slug: 'windows-mixed-reality',
     updated_at: 1518652800,
     url: 'https://www.igdb.com/platforms/windows-mixed-reality',
-    versions: [
-      231,
-    ],
-    websites: [
-      28,
-    ],
+    versions: [231],
+    websites: [28],
     checksum: '3315a4c6-f926-c8db-48e5-0cd8381ff229',
   },
   {
@@ -2245,9 +1812,7 @@ const platforms = [
     slug: 'neogeomvs',
     updated_at: 1525996800,
     url: 'https://www.igdb.com/platforms/neogeomvs',
-    versions: [
-      81,
-    ],
+    versions: [81],
     checksum: '8e1fb3fd-a38a-28cc-f8a4-3404ddec3dec',
   },
   {
@@ -2263,11 +1828,7 @@ const platforms = [
     slug: 'gb',
     updated_at: 1633117153,
     url: 'https://www.igdb.com/platforms/gb',
-    versions: [
-      39,
-      181,
-      182,
-    ],
+    versions: [39, 181, 182],
     checksum: '1561d675-66fa-4a0e-7618-0f496a3f2909',
   },
   {
@@ -2280,12 +1841,8 @@ const platforms = [
     slug: 'epoch-super-cassette-vision',
     updated_at: 1613052469,
     url: 'https://www.igdb.com/platforms/epoch-super-cassette-vision',
-    versions: [
-      494,
-    ],
-    websites: [
-      273,
-    ],
+    versions: [494],
+    websites: [273],
     checksum: 'c1a5ef98-ad78-9270-d223-f5c4a7c1afd0',
   },
   {
@@ -2301,13 +1858,8 @@ const platforms = [
     slug: 'wii',
     updated_at: 1615884750,
     url: 'https://www.igdb.com/platforms/wii',
-    versions: [
-      72,
-      283,
-    ],
-    websites: [
-      275,
-    ],
+    versions: [72, 283],
+    websites: [275],
     checksum: 'd56c975f-909c-1af3-bdf6-e57c03e11bce',
   },
   {
@@ -2318,12 +1870,8 @@ const platforms = [
     slug: 'intellivision-amico',
     updated_at: 1623689581,
     url: 'https://www.igdb.com/platforms/intellivision-amico',
-    versions: [
-      502,
-    ],
-    websites: [
-      279,
-    ],
+    versions: [502],
+    websites: [279],
     checksum: 'e74f0057-15cc-258b-1139-0f9b4a3f6903',
   },
   {
@@ -2337,13 +1885,8 @@ const platforms = [
     slug: 'stadia',
     updated_at: 1628547206,
     url: 'https://www.igdb.com/platforms/stadia',
-    versions: [
-      285,
-    ],
-    websites: [
-      37,
-      280,
-    ],
+    versions: [285],
+    websites: [37, 280],
     checksum: 'a478a95f-9f80-1610-f564-96d2623c1741',
   },
   {
@@ -2359,12 +1902,8 @@ const platforms = [
     slug: 'ps5',
     updated_at: 1628884745,
     url: 'https://www.igdb.com/platforms/ps5',
-    versions: [
-      273,
-    ],
-    websites: [
-      281,
-    ],
+    versions: [273],
+    websites: [281],
     checksum: 'a7786ac6-fedb-da00-8bc5-3d91fbfda93a',
   },
   {
@@ -2376,12 +1915,8 @@ const platforms = [
     slug: 'oculus-go',
     updated_at: 1632259185,
     url: 'https://www.igdb.com/platforms/oculus-go',
-    versions: [
-      508,
-    ],
-    websites: [
-      285,
-    ],
+    versions: [508],
+    websites: [285],
     checksum: 'b5e8d27d-056f-bb8f-ca48-8250c1922e2e',
   },
   {
@@ -2393,12 +1928,8 @@ const platforms = [
     slug: 'oculus-rift',
     updated_at: 1632408536,
     url: 'https://www.igdb.com/platforms/oculus-rift',
-    versions: [
-      506,
-    ],
-    websites: [
-      283,
-    ],
+    versions: [506],
+    websites: [283],
     checksum: 'dc9ddab2-421c-e716-0ebc-71f90c4e2d15',
   },
   {
@@ -2412,9 +1943,7 @@ const platforms = [
     slug: 'astrocade',
     updated_at: 1632441820,
     url: 'https://www.igdb.com/platforms/astrocade',
-    versions: [
-      105,
-    ],
+    versions: [105],
     checksum: '21254ade-89bf-58f2-29ce-bfa8711f1dda',
   },
   {
@@ -2427,13 +1956,8 @@ const platforms = [
     slug: 'oculus-quest',
     updated_at: 1632966502,
     url: 'https://www.igdb.com/platforms/oculus-quest',
-    versions: [
-      505,
-    ],
-    websites: [
-      282,
-      288,
-    ],
+    versions: [505],
+    websites: [282, 288],
     checksum: 'e7bb1adc-a999-e6f2-46da-a7f4d8a2b769',
   },
   {
@@ -2447,9 +1971,7 @@ const platforms = [
     slug: 'bbcmicro',
     updated_at: 1633117072,
     url: 'https://www.igdb.com/platforms/bbcmicro',
-    versions: [
-      33,
-    ],
+    versions: [33],
     checksum: '5bcdf949-de34-ecf5-c67d-b532489be13d',
   },
   {
@@ -2462,14 +1984,8 @@ const platforms = [
     slug: 'mobile',
     updated_at: 1646778004,
     url: 'https://www.igdb.com/platforms/mobile',
-    versions: [
-      46,
-      514,
-      515,
-    ],
-    websites: [
-      293,
-    ],
+    versions: [46, 514, 515],
+    websites: [293],
     checksum: '22758258-882b-73bc-b1d0-10fc30bdd5e5',
   },
   {
@@ -2483,12 +1999,8 @@ const platforms = [
     slug: 'game-dot-com',
     updated_at: 1660239125,
     url: 'https://www.igdb.com/platforms/game-dot-com',
-    versions: [
-      498,
-    ],
-    websites: [
-      309,
-    ],
+    versions: [498],
+    websites: [309],
     checksum: '1b39df8e-66aa-c4d3-0662-7b333bb4ccc0',
   },
   {
@@ -2501,15 +2013,12 @@ const platforms = [
     platform_logo: 380,
     platform_family: 4,
     slug: 'linux',
-    summary: 'Linux is a free and open-source (FOSS/FLOSS) Operating System. In a more precise and complex definition, Linux is an open-source OS kernel on which a large variety of Operating Systems (known as Linux distributions) are built.',
+    summary:
+      'Linux is a free and open-source (FOSS/FLOSS) Operating System. In a more precise and complex definition, Linux is an open-source OS kernel on which a large variety of Operating Systems (known as Linux distributions) are built.',
     updated_at: 1392940800,
     url: 'https://www.igdb.com/platforms/linux',
-    versions: [
-      44,
-    ],
-    websites: [
-      1,
-    ],
+    versions: [44],
+    websites: [1],
     checksum: 'b810fb9c-65f7-b297-3658-da9c4d52bf11',
   },
   {
@@ -2521,15 +2030,12 @@ const platforms = [
     name: 'Ouya',
     platform_logo: 236,
     slug: 'ouya',
-    summary: "The Ouya (/ˈuːjə/ oo-yə), stylized OUYA, is a microconsole running its own version of the Android operating system, developed by Ouya Inc. Julie Uhrman founded the project in 2012. She brought in designer Yves Béhar to collaborate on the design of the project, and Muffi Ghadiali as product manager to put together the engineering team. Development was funded via Kickstarter, raising $8.5 million and becoming the website's second-highest-earning project in its history.\n\nUnits started to ship to Kickstarter backers on March 28, 2013. The console was released to the general public on June 25, 2013, and features an exclusive Ouya store for applications and games designed specifically for the Ouya platform, of which the majority are casual games targeted at or used by a mass audience of casual gamers. Out of the box, Ouya supports media apps such as TwitchTV and XBMC media player. It runs a modified version of Android 4.1 Jelly Bean, and is open to rooting without voiding the warranty (developer models ordered during the Kickstarter campaign for $699 or $1,337 come pre-rooted). The console's hardware design allows it to be easily opened up, requiring only a standard screwdriver for easy modding and possible hardware addons.\n\nAll systems can be used as development kits, allowing any Ouya owner to also be a developer, without the need for licensing fees. All games are required to have some kind of free-to-play aspect, whether that be completely free, has a free trial, or has purchasable upgrades, levels, or other in-game items. The Ouya is classified as part of the eighth generation of video game consoles and as such is a rival competing against the PlayStation 4, Xbox One, and Wii U.",
+    summary:
+      "The Ouya (/ˈuːjə/ oo-yə), stylized OUYA, is a microconsole running its own version of the Android operating system, developed by Ouya Inc. Julie Uhrman founded the project in 2012. She brought in designer Yves Béhar to collaborate on the design of the project, and Muffi Ghadiali as product manager to put together the engineering team. Development was funded via Kickstarter, raising $8.5 million and becoming the website's second-highest-earning project in its history.\n\nUnits started to ship to Kickstarter backers on March 28, 2013. The console was released to the general public on June 25, 2013, and features an exclusive Ouya store for applications and games designed specifically for the Ouya platform, of which the majority are casual games targeted at or used by a mass audience of casual gamers. Out of the box, Ouya supports media apps such as TwitchTV and XBMC media player. It runs a modified version of Android 4.1 Jelly Bean, and is open to rooting without voiding the warranty (developer models ordered during the Kickstarter campaign for $699 or $1,337 come pre-rooted). The console's hardware design allows it to be easily opened up, requiring only a standard screwdriver for easy modding and possible hardware addons.\n\nAll systems can be used as development kits, allowing any Ouya owner to also be a developer, without the need for licensing fees. All games are required to have some kind of free-to-play aspect, whether that be completely free, has a free trial, or has purchasable upgrades, levels, or other in-game items. The Ouya is classified as part of the eighth generation of video game consoles and as such is a rival competing against the PlayStation 4, Xbox One, and Wii U.",
     updated_at: 1438905600,
     url: 'https://www.igdb.com/platforms/ouya',
-    versions: [
-      55,
-    ],
-    websites: [
-      13,
-    ],
+    versions: [55],
+    websites: [13],
     checksum: 'ec1994ca-3247-830f-8452-b664a411ade3',
   },
   {
@@ -2542,12 +2048,8 @@ const platforms = [
     slug: 'pdp1',
     updated_at: 1591228800,
     url: 'https://www.igdb.com/platforms/pdp1',
-    versions: [
-      115,
-    ],
-    websites: [
-      212,
-    ],
+    versions: [115],
+    websites: [212],
     checksum: 'f5fdcfb5-aaaa-1af3-98d1-ffb5cb063a18',
   },
   {
@@ -2560,12 +2062,8 @@ const platforms = [
     slug: 'trs-80-color-computer',
     updated_at: 1591228800,
     url: 'https://www.igdb.com/platforms/trs-80-color-computer',
-    versions: [
-      216,
-    ],
-    websites: [
-      19,
-    ],
+    versions: [216],
+    websites: [19],
     checksum: '9bd8e911-be9c-a1ad-d8a9-fbf2888cf9ff',
   },
   {
@@ -2576,9 +2074,7 @@ const platforms = [
     slug: 'analogueelectronics',
     updated_at: 1437868800,
     url: 'https://www.igdb.com/platforms/analogueelectronics',
-    versions: [
-      126,
-    ],
+    versions: [126],
     checksum: '01951a13-ac9d-9f80-2b02-f9a818d83326',
   },
   {
@@ -2591,12 +2087,8 @@ const platforms = [
     slug: 'pokemon-mini',
     updated_at: 1534982400,
     url: 'https://www.igdb.com/platforms/pokemon-mini',
-    versions: [
-      272,
-    ],
-    websites: [
-      33,
-    ],
+    versions: [272],
+    websites: [33],
     checksum: '9ea7c3e7-d03a-b228-b380-5bb17ea9be9f',
   },
   {
@@ -2610,9 +2102,7 @@ const platforms = [
     slug: 'edsac--1',
     updated_at: 1437868800,
     url: 'https://www.igdb.com/platforms/edsac--1',
-    versions: [
-      128,
-    ],
+    versions: [128],
     checksum: '60d0cce1-2d5c-720a-da36-96be6f562d2d',
   },
   {
@@ -2624,9 +2114,7 @@ const platforms = [
     slug: 'hp2100',
     updated_at: 1437955200,
     url: 'https://www.igdb.com/platforms/hp2100',
-    versions: [
-      130,
-    ],
+    versions: [130],
     checksum: '17f8a2f3-c014-058a-2827-375e11bcb851',
   },
   {
@@ -2637,12 +2125,8 @@ const platforms = [
     slug: 'exidy-sorcerer',
     updated_at: 1591228800,
     url: 'https://www.igdb.com/platforms/exidy-sorcerer',
-    versions: [
-      353,
-    ],
-    websites: [
-      215,
-    ],
+    versions: [353],
+    websites: [215],
     checksum: '49bd449a-ff99-0083-8954-5812a35c1c5c',
   },
   {
@@ -2653,9 +2137,7 @@ const platforms = [
     slug: 'pdp-7--1',
     updated_at: 1437868800,
     url: 'https://www.igdb.com/platforms/pdp-7--1',
-    versions: [
-      129,
-    ],
+    versions: [129],
     checksum: 'e828d5a4-68ad-b75c-dc50-f8ea7df31036',
   },
   {
@@ -2668,12 +2150,8 @@ const platforms = [
     slug: 'dvd-player',
     updated_at: 1575504000,
     url: 'https://www.igdb.com/platforms/dvd-player',
-    versions: [
-      355,
-    ],
-    websites: [
-      104,
-    ],
+    versions: [355],
+    websites: [104],
     checksum: '5a8e8d2e-b79e-37a9-7368-e3acbd6407f7',
   },
   {
@@ -2686,9 +2164,7 @@ const platforms = [
     slug: 'hp3000',
     updated_at: 1437955200,
     url: 'https://www.igdb.com/platforms/hp3000',
-    versions: [
-      131,
-    ],
+    versions: [131],
     checksum: 'd4ac96e8-e4ba-b0dc-22ac-22b73d19ba83',
   },
   {
@@ -2700,9 +2176,7 @@ const platforms = [
     slug: 'sdssigma7',
     updated_at: 1437955200,
     url: 'https://www.igdb.com/platforms/sdssigma7',
-    versions: [
-      132,
-    ],
+    versions: [132],
     checksum: '2b8bbf36-b6ff-0242-80f4-7d1c6a0423e0',
   },
   {
@@ -2713,12 +2187,8 @@ const platforms = [
     slug: 'daydream',
     updated_at: 1518652800,
     url: 'https://www.igdb.com/platforms/daydream',
-    versions: [
-      234,
-    ],
-    websites: [
-      31,
-    ],
+    versions: [234],
+    websites: [31],
     checksum: '1f46c07d-381d-e92f-1b49-88d04abe2f19',
   },
   {
@@ -2730,9 +2200,7 @@ const platforms = [
     slug: 'call-a-computer',
     updated_at: 1437955200,
     url: 'https://www.igdb.com/platforms/call-a-computer',
-    versions: [
-      133,
-    ],
+    versions: [133],
     checksum: '47311af8-783b-05f5-0d26-0848d099a399',
   },
   {
@@ -2745,12 +2213,8 @@ const platforms = [
     slug: 'zeebo',
     updated_at: 1582156800,
     url: 'https://www.igdb.com/platforms/zeebo',
-    versions: [
-      357,
-    ],
-    websites: [
-      106,
-    ],
+    versions: [357],
+    websites: [106],
     checksum: 'd23d6c26-1eb4-4ff6-2e33-93bd082ec6d9',
   },
   {
@@ -2764,9 +2228,7 @@ const platforms = [
     slug: 'plato--1',
     updated_at: 1468454400,
     url: 'https://www.igdb.com/platforms/plato--1',
-    versions: [
-      136,
-    ],
+    versions: [136],
     checksum: '46476609-7e40-6759-25f6-daecc85fb708',
   },
   {
@@ -2778,12 +2240,8 @@ const platforms = [
     slug: 'blu-ray-player',
     updated_at: 1575504000,
     url: 'https://www.igdb.com/platforms/blu-ray-player',
-    versions: [
-      356,
-    ],
-    websites: [
-      103,
-    ],
+    versions: [356],
+    websites: [103],
     checksum: '57f6c9cb-871e-d913-c5e9-9204991a94e7',
   },
   {
@@ -2796,9 +2254,7 @@ const platforms = [
     slug: 'zxs',
     updated_at: 1468540800,
     url: 'https://www.igdb.com/platforms/zxs',
-    versions: [
-      79,
-    ],
+    versions: [79],
     checksum: 'f73944f5-3aee-6709-e02f-ed9b896a85cc',
   },
   {
@@ -2811,12 +2267,8 @@ const platforms = [
     slug: 'pc-fx',
     updated_at: 1591142400,
     url: 'https://www.igdb.com/platforms/pc-fx',
-    versions: [
-      392,
-    ],
-    websites: [
-      139,
-    ],
+    versions: [392],
+    websites: [139],
     checksum: 'a880243d-9f81-4fcf-fdf7-da0fe028be95',
   },
   {
@@ -2829,9 +2281,7 @@ const platforms = [
     slug: 'msx',
     updated_at: 1468540800,
     url: 'https://www.igdb.com/platforms/msx',
-    versions: [
-      47,
-    ],
+    versions: [47],
     checksum: '7954204a-0502-4940-48c1-d525148f76fd',
   },
   {
@@ -2844,12 +2294,8 @@ const platforms = [
     slug: 'evercade',
     updated_at: 1591142400,
     url: 'https://www.igdb.com/platforms/evercade',
-    versions: [
-      426,
-    ],
-    websites: [
-      207,
-    ],
+    versions: [426],
+    websites: [207],
     checksum: '12fbb7c4-acc5-fa90-2a02-6de3810375a7',
   },
   {
@@ -2860,12 +2306,8 @@ const platforms = [
     slug: 'ooparts',
     updated_at: 1606521600,
     url: 'https://www.igdb.com/platforms/ooparts',
-    versions: [
-      490,
-    ],
-    websites: [
-      271,
-    ],
+    versions: [490],
+    websites: [271],
     checksum: 'f9404506-a3f2-b59b-238c-4707efe0d428',
   },
   {
@@ -2877,9 +2319,7 @@ const platforms = [
     slug: 'sinclair-zx81',
     updated_at: 1607031405,
     url: 'https://www.igdb.com/platforms/sinclair-zx81',
-    versions: [
-      491,
-    ],
+    versions: [491],
     checksum: 'd0da431e-930b-56d8-74fa-c4c6a2e10e07',
   },
   {
@@ -2889,13 +2329,8 @@ const platforms = [
     slug: 'duplicate-stadia',
     updated_at: 1619110218,
     url: 'https://www.igdb.com/platforms/duplicate-stadia',
-    versions: [
-      318,
-      319,
-    ],
-    websites: [
-      70,
-    ],
+    versions: [318, 319],
+    websites: [70],
     checksum: '41e990fe-f5c8-7597-01c1-7d3d1962a889',
   },
   {
@@ -2907,9 +2342,7 @@ const platforms = [
     slug: 'casio-loopy',
     updated_at: 1621275862,
     url: 'https://www.igdb.com/platforms/casio-loopy',
-    versions: [
-      499,
-    ],
+    versions: [499],
     checksum: '59ef0bf4-264a-25d9-ce53-7f1647ee548c',
   },
   {
@@ -2925,15 +2358,8 @@ const platforms = [
     slug: 'series-x',
     updated_at: 1633117145,
     url: 'https://www.igdb.com/platforms/series-x',
-    versions: [
-      284,
-      489,
-    ],
-    websites: [
-      36,
-      105,
-      238,
-    ],
+    versions: [284, 489],
+    websites: [36, 105, 238],
     checksum: '01a4b4f9-3f3a-a2f3-a7b8-0c5311e78df9',
   },
   {
@@ -2948,9 +2374,7 @@ const platforms = [
     slug: 'atari2600',
     updated_at: 1641283072,
     url: 'https://www.igdb.com/platforms/atari2600',
-    versions: [
-      24,
-    ],
+    versions: [24],
     checksum: 'e6f98e43-2357-b938-1d8a-975ee28f9df3',
   },
   {
@@ -2964,18 +2388,12 @@ const platforms = [
     platform_logo: 622,
     platform_family: 2,
     slug: 'xbox360',
-    summary: 'Xbox 360 brings you a total games and entertainment experience. The largest library of games, including titles that get you right into the thick of it with Kinect. Plus, your whole family can watch HD movies, TV shows, live events, music, sports and more—across all your devices. Xbox 360 is the center of your games and entertainment universe.',
+    summary:
+      'Xbox 360 brings you a total games and entertainment experience. The largest library of games, including titles that get you right into the thick of it with Kinect. Plus, your whole family can watch HD movies, TV shows, live events, music, sports and more—across all your devices. Xbox 360 is the center of your games and entertainment universe.',
     updated_at: 1633117136,
     url: 'https://www.igdb.com/platforms/xbox360',
-    versions: [
-      2,
-      3,
-      83,
-      495,
-    ],
-    websites: [
-      4,
-    ],
+    versions: [2, 3, 83, 495],
+    websites: [4],
     checksum: 'd61474ac-0b7c-054c-6450-9aa75ad1ad73',
   },
   {
@@ -2989,18 +2407,12 @@ const platforms = [
     platform_logo: 329,
     platform_family: 2,
     slug: 'xboxone',
-    summary: 'Welcome to a new generation of games and entertainment. Where games push the boundaries of realism. And television obeys your every command. Where listening to music while playing a game is a snap. And you can jump from TV to movies to music to a game in an instant. Where your experience is custom tailored to you. And the entertainment you love is all in one place. Welcome to the all-in-one, Xbox One',
+    summary:
+      'Welcome to a new generation of games and entertainment. Where games push the boundaries of realism. And television obeys your every command. Where listening to music while playing a game is a snap. And you can jump from TV to movies to music to a game in an instant. Where your experience is custom tailored to you. And the entertainment you love is all in one place. Welcome to the all-in-one, Xbox One',
     updated_at: 1633117143,
     url: 'https://www.igdb.com/platforms/xboxone',
-    versions: [
-      78,
-      180,
-      185,
-      188,
-    ],
-    websites: [
-      12,
-    ],
+    versions: [78, 180, 185, 188],
+    websites: [12],
     checksum: '1e7829d1-ecc1-967f-d605-ceec12f53c86',
   },
   {
@@ -3016,9 +2428,7 @@ const platforms = [
     slug: 'ps',
     updated_at: 1633117147,
     url: 'https://www.igdb.com/platforms/ps',
-    versions: [
-      57,
-    ],
+    versions: [57],
     checksum: 'b6644b7a-e4ba-7cd8-4a42-3176f9a1c053',
   },
   {
@@ -3034,9 +2444,7 @@ const platforms = [
     slug: 'famicom',
     updated_at: 1633117151,
     url: 'https://www.igdb.com/platforms/famicom',
-    versions: [
-      123,
-    ],
+    versions: [123],
     checksum: '3e878454-b3da-ae45-1f81-63837be3a167',
   },
   {
@@ -3047,12 +2455,8 @@ const platforms = [
     slug: 'airconsole',
     updated_at: 1636659682,
     url: 'https://www.igdb.com/platforms/airconsole',
-    versions: [
-      511,
-    ],
-    websites: [
-      291,
-    ],
+    versions: [511],
+    websites: [291],
     checksum: '0f4d997d-7d89-dbd3-4254-cdef7ce5a3a2',
   },
   {
@@ -3064,12 +2468,8 @@ const platforms = [
     slug: 'windows-mobile',
     updated_at: 1652748843,
     url: 'https://www.igdb.com/platforms/windows-mobile',
-    versions: [
-      523,
-    ],
-    websites: [
-      304,
-    ],
+    versions: [523],
+    websites: [304],
     checksum: '1659d620-f661-a9fe-dbc3-d870f00caea6',
   },
   {
@@ -3080,9 +2480,7 @@ const platforms = [
     slug: 'legacy-computer',
     updated_at: 1660235301,
     url: 'https://www.igdb.com/platforms/legacy-computer',
-    versions: [
-      549,
-    ],
+    versions: [549],
     checksum: '6ee1abcf-6815-e8d5-8f13-657776a5b353',
   },
   {
@@ -3095,12 +2493,8 @@ const platforms = [
     slug: 'sinclair-ql',
     updated_at: 1660235982,
     url: 'https://www.igdb.com/platforms/sinclair-ql',
-    versions: [
-      524,
-    ],
-    websites: [
-      308,
-    ],
+    versions: [524],
+    websites: [308],
     checksum: '37fde3bb-f22c-37b1-99d0-edad7e8f5104',
   },
   {
@@ -3112,9 +2506,7 @@ const platforms = [
     slug: 'handheld-electronic-lcd',
     updated_at: 1660246151,
     url: 'https://www.igdb.com/platforms/handheld-electronic-lcd',
-    versions: [
-      551,
-    ],
+    versions: [551],
     checksum: '7e964db9-bcbe-fb18-30dd-f8f3ac732f33',
   },
   {
@@ -3126,12 +2518,8 @@ const platforms = [
     slug: 'leapster-explorer-slash-leadpad-explorer',
     updated_at: 1660313634,
     url: 'https://www.igdb.com/platforms/leapster-explorer-slash-leadpad-explorer',
-    versions: [
-      553,
-    ],
-    websites: [
-      312,
-    ],
+    versions: [553],
+    websites: [312],
     checksum: '50379fe8-a410-a261-ec58-5a435232e8a0',
   },
   {
@@ -3145,12 +2533,8 @@ const platforms = [
     slug: 'nintendo-64dd',
     updated_at: 1660320798,
     url: 'https://www.igdb.com/platforms/nintendo-64dd',
-    versions: [
-      556,
-    ],
-    websites: [
-      315,
-    ],
+    versions: [556],
+    websites: [315],
     checksum: 'a6dc277b-22ff-1ce7-cadf-0bf1501c45e6',
   },
   {
@@ -3163,12 +2547,8 @@ const platforms = [
     slug: 'hyperscan',
     updated_at: 1660326205,
     url: 'https://www.igdb.com/platforms/hyperscan',
-    versions: [
-      547,
-    ],
-    websites: [
-      306,
-    ],
+    versions: [547],
+    websites: [306],
     checksum: 'e9990379-85ca-9401-9f1e-003ee0f0da99',
   },
   {
@@ -3181,12 +2561,8 @@ const platforms = [
     slug: 'palm-os',
     updated_at: 1660326463,
     url: 'https://www.igdb.com/platforms/palm-os',
-    versions: [
-      557,
-    ],
-    websites: [
-      316,
-    ],
+    versions: [557],
+    websites: [316],
     checksum: '7c475b92-12a3-b2a1-e302-dd13f4ebfdc3',
   },
   {
@@ -3200,12 +2576,8 @@ const platforms = [
     slug: 'mega-duck-slash-cougar-boy',
     updated_at: 1660326569,
     url: 'https://www.igdb.com/platforms/mega-duck-slash-cougar-boy',
-    versions: [
-      548,
-    ],
-    websites: [
-      307,
-    ],
+    versions: [548],
+    websites: [307],
     checksum: '4bd967b3-9dff-84ab-809a-fdf191e5e0f5',
   },
   {
@@ -3219,12 +2591,8 @@ const platforms = [
     slug: 'atari-jaguar-cd',
     updated_at: 1660326828,
     url: 'https://www.igdb.com/platforms/atari-jaguar-cd',
-    versions: [
-      550,
-    ],
-    websites: [
-      310,
-    ],
+    versions: [550],
+    websites: [310],
     checksum: '704539d3-9f54-2d0f-220c-986c484c76b0',
   },
   {
@@ -3237,12 +2605,8 @@ const platforms = [
     slug: 'watara-slash-quickshot-supervision',
     updated_at: 1660326748,
     url: 'https://www.igdb.com/platforms/watara-slash-quickshot-supervision',
-    versions: [
-      555,
-    ],
-    websites: [
-      314,
-    ],
+    versions: [555],
+    websites: [314],
     checksum: '4ed0c0ee-3103-4d53-c0dc-612a391de28d',
   },
   {
@@ -3256,12 +2620,8 @@ const platforms = [
     slug: 'leaptv',
     updated_at: 1660326997,
     url: 'https://www.igdb.com/platforms/leaptv',
-    versions: [
-      554,
-    ],
-    websites: [
-      313,
-    ],
+    versions: [554],
+    websites: [313],
     checksum: '74a35c87-865a-52ee-29f0-70c03039ff84',
   },
   {
@@ -3275,12 +2635,8 @@ const platforms = [
     slug: 'leapster',
     updated_at: 1660327194,
     url: 'https://www.igdb.com/platforms/leapster',
-    versions: [
-      552,
-    ],
-    websites: [
-      311,
-    ],
+    versions: [552],
+    websites: [311],
     checksum: '2a4b5882-ce1b-2ba6-f4c2-0f3e55fda0b9',
   },
   {
@@ -3292,12 +2648,8 @@ const platforms = [
     slug: 'arduboy',
     updated_at: 1663685354,
     url: 'https://www.igdb.com/platforms/arduboy',
-    versions: [
-      588,
-    ],
-    websites: [
-      337,
-    ],
+    versions: [588],
+    websites: [337],
     checksum: '54e5a3b8-49fa-e0b3-c5e7-b7dce5ef22ba',
   },
   {
@@ -3310,12 +2662,8 @@ const platforms = [
     slug: 'vsmile',
     updated_at: 1663688329,
     url: 'https://www.igdb.com/platforms/vsmile',
-    versions: [
-      589,
-    ],
-    websites: [
-      338,
-    ],
+    versions: [589],
+    websites: [338],
     checksum: '2a426d76-7d50-e3af-3d83-0deb2677bb9a',
   },
   {
@@ -3330,12 +2678,8 @@ const platforms = [
     slug: 'visual-memory-unit-slash-visual-memory-system',
     updated_at: 1666802311,
     url: 'https://www.igdb.com/platforms/visual-memory-unit-slash-visual-memory-system',
-    versions: [
-      590,
-    ],
-    websites: [
-      339,
-    ],
+    versions: [590],
+    websites: [339],
     checksum: '76344cf9-0604-8d4d-7171-121dde0e6f4b',
   },
   {
@@ -3348,12 +2692,8 @@ const platforms = [
     slug: 'pocketstation',
     updated_at: 1666808660,
     url: 'https://www.igdb.com/platforms/pocketstation',
-    versions: [
-      591,
-    ],
-    websites: [
-      340,
-    ],
+    versions: [591],
+    websites: [340],
     checksum: '3a2dde48-46e5-5856-5d38-612d95a4d2e5',
   },
   {
@@ -3369,9 +2709,7 @@ const platforms = [
     slug: 'genesis-slash-megadrive',
     updated_at: 1670168290,
     url: 'https://www.igdb.com/platforms/genesis-slash-megadrive',
-    versions: [
-      64,
-    ],
+    versions: [64],
     checksum: 'f5cda40e-2331-62ed-851c-8133d7743957',
   },
   {
@@ -3384,14 +2722,8 @@ const platforms = [
     slug: 'meta-quest-2',
     updated_at: 1675765358,
     url: 'https://www.igdb.com/platforms/meta-quest-2',
-    versions: [
-      507,
-      593,
-    ],
-    websites: [
-      284,
-      341,
-    ],
+    versions: [507, 593],
+    websites: [284, 341],
     checksum: '3f2e126f-456d-71d8-ac05-ec1a0676aafd',
   },
   {
@@ -3407,12 +2739,8 @@ const platforms = [
     slug: 'psvr2',
     updated_at: 1677524402,
     url: 'https://www.igdb.com/platforms/psvr2',
-    versions: [
-      512,
-    ],
-    websites: [
-      342,
-    ],
+    versions: [512],
+    websites: [342],
     checksum: 'ef134f0b-0b45-bc3e-0ab5-15b4a26d46ba',
   },
   {
@@ -3428,12 +2756,8 @@ const platforms = [
     slug: 'playstation-vr',
     updated_at: 1677526312,
     url: 'https://www.igdb.com/platforms/playstation-vr',
-    versions: [
-      235,
-    ],
-    websites: [
-      32,
-    ],
+    versions: [235],
+    websites: [32],
     checksum: 'aa48201c-bd3b-ed2c-f30f-50790d5549b7',
   },
   {
@@ -3447,9 +2771,7 @@ const platforms = [
     slug: 'vc',
     updated_at: 1681240385,
     url: 'https://www.igdb.com/platforms/vc',
-    versions: [
-      71,
-    ],
+    versions: [71],
     checksum: '1d9fa2f3-0e52-813a-1525-6fdfcc4c732c',
   },
 ];

@@ -1,21 +1,12 @@
 <template>
   <section class="game-rating">
-    <div
-      v-if="rating >= 80"
-      class="game-rating-circle game-rating-green"
-    >
+    <div v-if="rating >= 80" class="game-rating-circle game-rating-green">
       <div>{{ Math.round(rating) }}</div>
     </div>
-    <div
-      v-else-if="rating >= 60"
-      class="game-rating-circle game-rating-yellow"
-    >
+    <div v-else-if="rating >= 60" class="game-rating-circle game-rating-yellow">
       <div>{{ Math.round(rating) }}</div>
     </div>
-    <div
-      v-else
-      class="game-rating-circle game-rating-red"
-    >
+    <div v-else class="game-rating-circle game-rating-red">
       <div>{{ Math.round(rating) }}</div>
     </div>
   </section>
@@ -42,17 +33,17 @@ defineProps({
 }
 
 .game-rating-green {
-  background: #4BB543;
-  border: 1px solid #30752B;
+  background: #4bb543;
+  border: 1px solid #30752b;
 }
 
 .game-rating-yellow {
-  background: #8B8000;
-  border: 1px solid #6B6520;
+  background: #8b8000;
+  border: 1px solid #6b6520;
 }
 
 .game-rating-red {
-  background: #8B0000;
-  border: 1px solid #6B2020;
+  background: #8b0000;
+  border: 1px solid #6b2020;
 }
 </style>

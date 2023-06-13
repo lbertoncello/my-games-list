@@ -2,20 +2,9 @@
   <v-form>
     <v-container>
       <v-row>
-        <v-col
-          cols="0"
-          sm="1"
-          lg="2"
-          xl="3"
-        >
-        </v-col>
-        <v-col
-          cols="12"
-          sm="10"
-          lg="8"
-          xl="6"
-        >
-          <v-form @submit.prevent="" >
+        <v-col cols="0" sm="1" lg="2" xl="3"> </v-col>
+        <v-col cols="12" sm="10" lg="8" xl="6">
+          <v-form @submit.prevent="">
             <v-text-field
               v-model="searchQuery"
               @keypress.enter.prevent="handleSubmit"
@@ -28,13 +17,7 @@
             />
           </v-form>
         </v-col>
-        <v-col
-          cols="0"
-          sm="1"
-          lg="2"
-          xl="3"
-        >
-      </v-col>
+        <v-col cols="0" sm="1" lg="2" xl="3"> </v-col>
       </v-row>
     </v-container>
   </v-form>
@@ -55,5 +38,4 @@ async function handleSubmit() {
     emit('submit', { searchQuery: searchQuery.value });
   }
 }
-
 </script>
