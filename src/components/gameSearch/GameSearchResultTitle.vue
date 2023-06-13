@@ -1,11 +1,12 @@
 <template>
-  <div class="game-search-result-title">
-    <h1>{{ numberOfResults }} results for “{{ serchString }}”</h1>
-  </div>
+  <MainTitle :text="text" />
 </template>
 
 <script setup>
-defineProps({
+import { ref, onMounted } from 'vue';
+import MainTitle from '@/components/general/MainTitle.vue';
+
+const props = defineProps({
   numberOfResults: {
     type: Number,
     required: true,
@@ -14,6 +15,12 @@ defineProps({
     type: String,
     required: true,
   },
+});
+
+const text = ref('');
+
+onMounted(() => {
+  text.value = `${props.numberOfResults} results for “${props.serchString}”`;
 });
 </script>
 
