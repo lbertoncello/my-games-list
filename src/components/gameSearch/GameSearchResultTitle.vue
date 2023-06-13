@@ -1,11 +1,12 @@
 <template>
-  <div class="game-search-result-title">
-    <h1>{{ numberOfResults }} results for “{{ serchString }}”</h1>
-  </div>
+  <MainTitle :text="text" />
 </template>
 
 <script setup>
-defineProps({
+import { ref, onMounted } from 'vue';
+import MainTitle from '@/components/general/MainTitle.vue';
+
+const props = defineProps({
   numberOfResults: {
     type: Number,
     required: true,
@@ -14,6 +15,12 @@ defineProps({
     type: String,
     required: true,
   },
+});
+
+const text = ref('');
+
+onMounted(() => {
+  text.value = `${props.numberOfResults} results for “${props.serchString}”`;
 });
 </script>
 
@@ -24,7 +31,7 @@ defineProps({
   align-items: center;
   height: 2rem;
   width: 100%;
-  background: #7960E6;
+  background: #7960e6;
   border-radius: 5px;
   padding: 1.3rem 0;
 }
