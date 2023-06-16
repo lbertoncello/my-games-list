@@ -24,11 +24,9 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import rules from '@/composables/helpers/fieldValidation';
 
-const rules = ref({
-  required: (value) => !!value || 'This field is required',
-});
+import { ref } from 'vue';
 
 const emit = defineEmits(['submit']);
 const searchQuery = ref('');
