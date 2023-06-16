@@ -1,6 +1,6 @@
 <template>
-  <div class="main-title">
-    <h1>{{ text }}</h1>
+  <div class="main-title elevation-5">
+    <h1 :class="{ 'text-uppercase': uppercase }">{{ text }}</h1>
   </div>
 </template>
 
@@ -9,6 +9,10 @@ defineProps({
   text: {
     type: String,
     required: true,
+  },
+  uppercase: {
+    type: Boolean,
+    default: false,
   },
 });
 </script>
